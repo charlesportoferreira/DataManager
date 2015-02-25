@@ -7,16 +7,16 @@ package datamanager;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Iterator;
 import java.util.List;
 import java.util.ArrayList;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  * S
@@ -25,39 +25,39 @@ import java.util.ArrayList;
  */
 public class DataManager {
 
-    public static Map<String, Double> features = new HashMap<>();
-    public static List<String> palavrasEssenciais = new ArrayList<>();
-    public static double min,max;
+    public Map<String, Double> features = new HashMap<>();
+    public List<String> palavrasEssenciais = new ArrayList<>();
+    public double min, max;
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        //geraEsssenciaBaseDados();
-        getMinMaxFrequency("1Gram.csv");
-        System.out.println(min + " : " + max + " : ");
+
+        DataManager dm = new DataManager();
+        //dm.geraEsssenciaBaseDados();
+        dm.getMinMaxFrequency("1Gram.csv");
+        System.out.println(dm.min + " : " + dm.max + " : ");
         System.out.println("done");
     }
 
-    public static void geraEsssenciaBaseDados() {
+    public void geraEsssenciaBaseDados() {
         System.out.println("teste");
-        
+
         try {
             lerDadosWordRank("word_frequency.csv");
             printFile("test.csv", "");
         } catch (Exception ex) {
-            ex.printStackTrace();
+            System.out.println("Erro manipulacao de arquivo");
         }
     }
 
-    public static void lerDadosWordRank(String filePath) throws FileNotFoundException, IOException {
+    public void lerDadosWordRank(String filePath) throws FileNotFoundException, IOException {
 
-        String palavra = "";
-        String linha = "";
-        double rank = 0;
-        try {
-            FileReader fr = new FileReader(filePath);
-            BufferedReader br = new BufferedReader(fr);
+        String palavra;
+        String linha;
+        double rank;
+        try (FileReader fr = new FileReader(filePath); BufferedReader br = new BufferedReader(fr)) {
             while (br.ready()) {
                 linha = br.readLine();
                 if (linha.contains("Rank")) {
@@ -67,113 +67,101 @@ public class DataManager {
                 rank = Double.parseDouble(linha.split(",")[5]);
                 features.put(palavra, rank);
             }
-            br.close();
-            fr.close();
-        } catch (IOException ex) {
-            ex.printStackTrace();
         }
     }
 
-    private static void printFile(String fileName, String texto) throws IOException {
+    private void printFile(String fileName, String texto) throws IOException {
         try {
             StringBuilder sb = new StringBuilder();
-            FileWriter fw = new FileWriter(fileName);
-            BufferedWriter bw = new BufferedWriter(fw);
-        
-            for (String key : features.keySet()) {
-                sb.append("\n");
-                sb.append(key);
-                sb.append(":");
-                sb.append(features.get(key));
+            try (FileWriter fw = new FileWriter(fileName); BufferedWriter bw = new BufferedWriter(fw)) {
+                for (String key : features.keySet()) {
+                    sb.append("\n");
+                    sb.append(key);
+                    sb.append(":");
+                    sb.append(features.get(key));
+                }
+                bw.write(sb.toString());
             }
-
-            bw.write(sb.toString());
-            bw.close();
-            fw.close();
         } catch (IOException ex) {
-            ex.printStackTrace();
+            System.out.println("Erro manipulacao de dados...");
         }
     }
 
-    private static void createEssentialDataBase(String filePath){
-        String palavra = "";
-        String linha = "";
-        double rank = 0;
-        try {
-            FileReader fr = new FileReader(filePath);
-            BufferedReader br = new BufferedReader(fr);
+    private void createEssentialDataBase(String filePath) {
+        String palavra;
+        String linha;
+        double rank;
+        try (FileReader fr = new FileReader(filePath); BufferedReader br = new BufferedReader(fr)) {
             while (br.ready()) {
                 linha = br.readLine();
-                palavra =  linha.split(",")[2];
+                palavra = linha.split(",")[2];
                 rank = Double.parseDouble(linha.split(",")[0]);
-                if(features.containsKey(palavra)){
-                   // double valorEssencia =  features.getKey 
+                if (features.containsKey(palavra)) {
                     palavrasEssenciais.add(palavra + ", " + features.get(palavra));
                 }
                 features.put(palavra, rank);
             }
-            br.close();
-            fr.close();
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(DataManager.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
-            ex.printStackTrace();
+            Logger.getLogger(DataManager.class.getName()).log(Level.SEVERE, null, ex);
         }
+
     }
 
-
-    private static void getMinMaxFrequency(String filePath){
-        String palavra = "";
-        String linha = "";
+    public void getMinMaxFrequency(String filePath) {
+        String palavra;
+        String linha;
         double frequencia = 0;
-        try {
-            FileReader fr = new FileReader(filePath);
-            BufferedReader br = new BufferedReader(fr);
+
+        try (FileReader fr = new FileReader(filePath); BufferedReader br = new BufferedReader(fr)) {
             String primeiraLinha = br.readLine();
-            min = Double.parseDouble(primeiraLinha.split(",")[0]);
+            min = Double.parseDouble(primeiraLinha.split(":")[0]);
             while (br.ready()) {
                 linha = br.readLine();
-                if(linha.length() < 2){
+                if (linha.length() < 2) {
                     continue;
                 }
-                palavra =  linha.split(",")[2];
-                frequencia = Double.parseDouble(linha.split(",")[0]);
+                frequencia = Double.parseDouble(linha.split(":")[0]);
             }
-            br.close();
-            fr.close();
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(DataManager.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
-            ex.printStackTrace();
+            Logger.getLogger(DataManager.class.getName()).log(Level.SEVERE, null, ex);
         }
         max = frequencia;
+
     }
 
-     private static void generateRankedDataBase(String filePath){
-        String palavra = "";
-        String linha = "";
-        double rank = 0;
-        double rankWordFrequency;
-        List<String> ngramRankeados = new ArrayList<>();
-        try {
-            FileReader fr = new FileReader(filePath);
-            BufferedReader br = new BufferedReader(fr);
+    private List<Feature> generateRankedDataBase(String filePath) {
+        String palavra;
+        String linha;
+        double rank;
+        double essencia;
+        List<Feature> essencias = new ArrayList<>();
+
+        try (FileReader fr = new FileReader(filePath); BufferedReader br = new BufferedReader(fr)) {
             while (br.ready()) {
                 linha = br.readLine();
-                if(linha.length() < 2){
+                if (linha.length() < 2) {
                     continue;
                 }
-                palavra =  linha.split(",")[2];
+                palavra = linha.split(",")[2];
                 rank = Double.parseDouble(linha.split(",")[0]);
-                rank = (rank - min)/(max - min);
-                if(features.containsKey(palavra)){
-                    rankWordFrequency = rank - features.get(palavra);
-                }else{
-                    rankWordFrequency = 0;
+                rank = (rank - min) / (max - min);
+                if (features.containsKey(palavra)) {
+                    essencia = rank - features.get(palavra);
+                } else {
+                    essencia = 0;
                 }
-               
+                essencias.add(new Feature(palavra, rank));
             }
-            br.close();
-            fr.close();
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(DataManager.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
-            ex.printStackTrace();
+            Logger.getLogger(DataManager.class.getName()).log(Level.SEVERE, null, ex);
         }
+        return essencias;
     }
 
 }
