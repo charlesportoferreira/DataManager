@@ -15,6 +15,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.List;
 import java.util.ArrayList;
+import java.util.Map.Entry;
+import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -161,16 +163,15 @@ public class DataManager {
         return palavrasEssenciais;
     }
 
-    private void createEssencialClass(String filePath, String filePath2) throws IOException {
-
-        List<String> palavras = getPalavrasEssenciais(filePath2, 0.23);
+    private void createEssencialClass(String pretextNGram, String arquivoEssenciaBase) throws IOException {
+        List<String> palavras = getPalavrasEssenciais(arquivoEssenciaBase, 0.10);
         String linha;
         Classe c = new Classe("");
         String nomeClasse;
         String palavraLida;
         int frequencia;
         for (String palavra : palavras) {
-            try (FileReader fr = new FileReader(filePath); BufferedReader br = new BufferedReader(fr)) {
+            try (FileReader fr = new FileReader(pretextNGram); BufferedReader br = new BufferedReader(fr)) {
                 while (br.ready()) {
                     linha = br.readLine();
                     if (linha.contains("Maid")) {
@@ -183,6 +184,7 @@ public class DataManager {
                     if (palavra.equals(palavraLida)) {
                         if (c.palavras.containsKey(palavra)) {
                             frequencia += c.palavras.get(palavra);
+                            c.palavras.put(palavra, frequencia);
                         } else {
                             c.palavras.put(palavra, frequencia);
                         }
@@ -191,6 +193,13 @@ public class DataManager {
                 br.close();
                 fr.close();
             }
+        }
+        for (Classe classe : classes) {
+            StringBuilder sb = new StringBuilder();
+            for (Entry<String, Integer> entry : classe.palavras.entrySet()) {
+                sb.append(entry.getKey()).append(":").append(entry.getValue()).append("\n");
+            }
+            printFile("E: " + classe.nome + ".txt", sb.toString());
         }
         int a = 0;
     }
