@@ -10,10 +10,16 @@ package classificador;
  * @author debora
  */
 public class Texto {
+
     private String nomeTexto;
     private String nomeClasseOrigem;
     private String nomeClasseSugerida;
     private double proximidade;
+    public double[] dados;
+
+    public Texto(int tamanho) {
+        dados = new double[tamanho];
+    }
 
     public double getProximidade() {
         return proximidade;
@@ -46,5 +52,5 @@ public class Texto {
     public void setNomeClasseSugerida(String nomeClasseSugerida) {
         this.nomeClasseSugerida = nomeClasseSugerida;
     }
-    
+
 }
