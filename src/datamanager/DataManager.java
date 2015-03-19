@@ -190,6 +190,7 @@ public class DataManager {
                         }
                     }
                 }
+               
                 br.close();
                 fr.close();
             }
