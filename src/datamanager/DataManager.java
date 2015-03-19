@@ -38,7 +38,8 @@ public class DataManager {
 
         DataManager dm = new DataManager();
         try {
-            dm.createEssencialClass("1Gram.txt", "test3.csv");
+            dm.testeEssencia();
+            //dm.createEssencialClass("1Gram.txt", "test3.csv");
         } catch (IOException ex) {
             Logger.getLogger(DataManager.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -190,7 +191,7 @@ public class DataManager {
                         }
                     }
                 }
-               
+
                 br.close();
                 fr.close();
             }
@@ -233,4 +234,21 @@ public class DataManager {
         classes.add(c);
         return c;
     }
+
+    public void testeEssencia() throws IOException {
+        Classe c1 = new Classe("AaronPressman");
+        Classe c2 = new Classe("AlanCrosby");
+        List<Classe> cls = new ArrayList<>();
+        cls.add(c1);
+        cls.add(c2);
+        List<String> palavras = getPalavrasEssenciais("test3.csv", 0.10);
+        c1.criaVetorEssencia(palavras, "E: " + c1.nome + ".txt");
+        c2.criaVetorEssencia(palavras, "E: " + c2.nome + ".txt");
+
+        for (Classe classe : cls) {
+            System.out.println(classe.nome);
+            System.out.println(classe.dados);
+        }
+    }
+
 }
