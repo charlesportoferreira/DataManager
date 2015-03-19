@@ -29,31 +29,7 @@ public class Classe {
         dados = new ArrayList<>();
     }
 
-    public void criaVetorEssencia(List<String> palavras, String filePath) throws IOException {
-        String linha;
-        String word;
-        double valor;
-        boolean possuiPalavra;
-        for (String palavra : palavras) {
-            possuiPalavra = false;
-            try (FileReader fr = new FileReader(filePath); BufferedReader br = new BufferedReader(fr)) {
-                while (br.ready()) {
-                    linha = br.readLine();
-                    word = linha.split(":")[0];
-                    valor = Double.parseDouble(linha.split(":")[1]);
-                    if (word.equals(palavra)) {
-                        dados.add(valor);
-                        possuiPalavra = true;
-                        break;
-                    }
-                }
-                if (!possuiPalavra) {
-                    dados.add(0.0);
-                }
-
-                fr.close();
-            }
-        }
-    }
+    
+    
 
 }

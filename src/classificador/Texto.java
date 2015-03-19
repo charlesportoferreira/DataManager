@@ -5,6 +5,9 @@
  */
 package classificador;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author debora
@@ -15,10 +18,10 @@ public class Texto {
     private String nomeClasseOrigem;
     private String nomeClasseSugerida;
     private double proximidade;
-    public double[] dados;
+    public List<Double> dados;
 
-    public Texto(int tamanho) {
-        dados = new double[tamanho];
+    public Texto() {
+        dados = new ArrayList<>();
     }
 
     public double getProximidade() {

@@ -5,6 +5,9 @@
  */
 package datamanager;
 
+import classificador.Classificador;
+import classificador.Essencia;
+import classificador.Texto;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileNotFoundException;
@@ -15,6 +18,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.List;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Map.Entry;
 import java.util.Scanner;
 import java.util.logging.Level;
@@ -236,19 +240,37 @@ public class DataManager {
     }
 
     public void testeEssencia() throws IOException {
-        Classe c1 = new Classe("AaronPressman");
-        Classe c2 = new Classe("AlanCrosby");
-        List<Classe> cls = new ArrayList<>();
+        Essencia c1 = new Essencia("AaronPressman");
+        Essencia c2 = new Essencia("AlanCrosby");
+        List<Essencia> cls = new ArrayList<>();
         cls.add(c1);
         cls.add(c2);
         List<String> palavras = getPalavrasEssenciais("test3.csv", 0.10);
-        c1.criaVetorEssencia(palavras, "E: " + c1.nome + ".txt");
-        c2.criaVetorEssencia(palavras, "E: " + c2.nome + ".txt");
+        c1.criaVetorEssencia(palavras, "E: " + c1.getNome() + ".txt");
+        c2.criaVetorEssencia(palavras, "E: " + c2.getNome() + ".txt");
 
-        for (Classe classe : cls) {
-            System.out.println(classe.nome);
-            System.out.println(classe.dados);
+        for (Essencia essencia : cls) {
+            System.out.println(essencia.getNome());
+            System.out.println(essencia.getDados());
         }
+
+        Texto t = new Texto();
+        t.dados.add(0.0);
+        t.dados.add(1.0);
+        t.dados.add(2.0);
+        t.dados.add(4.0);
+        t.dados.add(3.0);
+        t.dados.add(5.0);
+        t.dados.add(6.0);
+        t.dados.add(7.0);
+        t.dados.add(8.0);
+        //t.setNomeClasseOrigem("AaronPressman");
+        t.setNomeClasseOrigem("AlanCrosby");
+
+        List<Texto> textos = new ArrayList<>();
+        textos.add(t);
+        new Classificador().classifica(t, cls);
+        System.out.println(new Classificador().getAcertosClassificacao(textos)+ "%");
     }
 
 }

@@ -5,6 +5,7 @@
  */
 package classificador;
 
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -18,7 +19,7 @@ public class Classificador {
         double vet1[] = {0.3, 0.0, 0.5};
         double vet2[] = {0.5, 0.4, 0.3};
 
-        System.out.println(new Classificador().similaridade(vet1, vet2));
+        //System.out.println(new Classificador().similaridade(vet1, vet2));
     }
 
     public void classifica(Texto texto, List<Essencia> essencias) {
@@ -32,20 +33,20 @@ public class Classificador {
         }
     }
 
-    public double similaridade(double[] doc1, double[] doc2) {
+    public double similaridade(List<Double> doc1, List<Double> doc2) {
 
-        int size = doc1.length;
+        int size = doc1.size();
         double somatorio = 0;
         double somaDoc1 = 0;
         double somaDoc2 = 0;
         double produtorio;
         for (int i = 0; i < size; i++) {
-            somatorio += doc1[i] * doc2[i];
+            somatorio += doc1.get(i) * doc2.get(i);
         }
 
         for (int i = 0; i < size; i++) {
-            somaDoc1 += Math.pow(doc1[i], 2);
-            somaDoc2 += Math.pow(doc2[i], 2);
+            somaDoc1 += Math.pow(doc1.get(i), 2);
+            somaDoc2 += Math.pow(doc2.get(i), 2);
         }
         somaDoc1 = Math.pow(somaDoc1, 0.5);
         somaDoc2 = Math.pow(somaDoc2, 0.5);
