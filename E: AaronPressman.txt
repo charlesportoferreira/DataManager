@@ -1,8 +1,0 @@
-a:39
-that:14
-in:22
-by:13
-for:12
-to:39
-internet:26
-on:18
