@@ -25,7 +25,6 @@ import java.util.logging.Logger;
  */
 public class Ranker {
 
-    
     public Map<String, Termo> getFrequenciaAbsoluta(String filePath) throws FileNotFoundException, IOException {
         Map<String, Termo> termos = new HashMap<>();
         String linhaLida;
@@ -198,7 +197,6 @@ public class Ranker {
             melhoresTermos.add(termos.get(i));
             System.out.print(termos.get(i).nome + "\t");
         }
-
         return melhoresTermos;
     }
 

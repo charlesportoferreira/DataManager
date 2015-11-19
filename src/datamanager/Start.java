@@ -19,6 +19,7 @@ import java.util.logging.Logger;
  * @author charles
  */
 public class Start {
+
     public static void main(String args[]) {
         Ranker ranker = new Ranker();
         Map<String, Termo> t1 = new HashMap<>();
@@ -45,23 +46,39 @@ public class Start {
         ranker.imprime_n_melhores(n, listaTermos);
 
         BagOfWord bow = new BagOfWord();
-        List<Instancia> instancias = new ArrayList<>();
+
+        //cria as instancias dos textos
+        List<Instancia> textos = new ArrayList<>();
         try {
-            instancias = bow.geraInstancias("1Gram.txt", ranker.get_n_melhores(n, listaTermos));
+            textos = bow.geraInstancias("1Gram.txt", ranker.get_n_melhores(n, listaTermos));
         } catch (IOException ex) {
             Logger.getLogger(Ranker.class.getName()).log(Level.SEVERE, null, ex);
         }
 
+        //cria as instancias das classes
         List<Instancia> classes = new ArrayList<>();
         for (String nomeClasse : bow.nomeClasses) {
-            for (Instancia in : instancias) {
-                if (in.classe.equals(nomeClasse)) {
-                    Instancia insClasse = new Instancia(n);
-                    insClasse.classe = nomeClasse;
-                    bow.somaVetores(insClasse.palavras, in.palavras);
-                    classes.add(insClasse);
+            Instancia insClasse = new Instancia(n);
+            insClasse.classe = nomeClasse;
+            for (Instancia insTextos : textos) {
+                if (insTextos.classe.equals(nomeClasse)) {
+                    bow.somaVetores(insClasse.palavras, insTextos.palavras);
+
                 }
             }
+            classes.add(insClasse);
+        }
+        System.out.println("\n");
+        //cria as instancias com a distancia entre os textos e as classes
+        for (Instancia texto : textos) {
+            Instancia ins = new Instancia(texto.texto, texto.classe, classes.size());
+            double[] vet = new double[classes.size()];
+            for (int i = 0; i < classes.size(); i++) {
+                vet[i] = bow.getDistanciaEuclidiana(texto, classes.get(i));
+            }
+            ins.palavras = vet;
+            System.out.println(ins);
+            System.out.println(ins.toArff());
         }
     }
 
