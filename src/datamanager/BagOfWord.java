@@ -151,7 +151,6 @@ public class BagOfWord {
     public void printData(String fileName, String texto) throws IOException {
         try (FileWriter fw = new FileWriter(fileName, true); BufferedWriter bw = new BufferedWriter(fw)) {
             bw.write(texto);
-            // bw.newLine();
             bw.close();
             fw.close();
         }
