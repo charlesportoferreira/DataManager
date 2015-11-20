@@ -195,7 +195,14 @@ public class Ranker {
         List<Termo> melhoresTermos = new ArrayList<>();
         for (int i = 0; i < n; i++) {
             melhoresTermos.add(termos.get(i));
-            System.out.print(termos.get(i).nome + "\t");
+        }
+        return melhoresTermos;
+    }
+    
+     public List<String> getList_n_melhores(int n, List<Termo> termos) {
+        List<String> melhoresTermos = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
+            melhoresTermos.add(termos.get(i).nome);
         }
         return melhoresTermos;
     }

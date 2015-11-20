@@ -42,7 +42,7 @@ public class Start {
         ranker.imprimeMap("map1GramNR.txt", t2);
         List<Termo> listaTermos = ranker.ordenaMap(t2);
         ranker.imprimeList("List1GramOrder.txt", listaTermos);
-        int n = 10;
+        int n = 300;
         ranker.imprime_n_melhores(n, listaTermos);
 
         BagOfWord bow = new BagOfWord();
@@ -69,7 +69,9 @@ public class Start {
             classes.add(insClasse);
         }
         System.out.println("\n");
+
         //cria as instancias com a distancia entre os textos e as classes
+        List<Instancia> distancias = new ArrayList<>();
         for (Instancia texto : textos) {
             Instancia ins = new Instancia(texto.texto, texto.classe, classes.size());
             double[] vet = new double[classes.size()];
@@ -77,9 +79,19 @@ public class Start {
                 vet[i] = bow.getDistanciaEuclidiana(texto, classes.get(i));
             }
             ins.palavras = vet;
-            System.out.println(ins);
+            distancias.add(ins);
             System.out.println(ins.toArff());
         }
+
+        StringBuilder sbClasses = new StringBuilder("@ATTRIBUTE classe {");
+        for (Instancia cl : classes) {
+            sbClasses.append(cl.classe).append(",");
+        }
+        int pos = sbClasses.lastIndexOf(",");
+        sbClasses.replace(pos, pos + 1, "}");
+
+        bow.generateBagOfWord(distancias, classes.size(), sbClasses.toString(), "teste.arff");
+
     }
 
 }
