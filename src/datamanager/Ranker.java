@@ -153,7 +153,7 @@ public class Ranker {
             if (termosWFL.containsKey(t.nome)) {
                 termoWFL = termosWFL.get(t.nome);
                 t.rank = t.freqNorm - termoWFL.freqNorm;
-                System.out.println(t.freqNorm - termoWFL.freqNorm);
+                //System.out.println(t.freqNorm - termoWFL.freqNorm);
             } else {
                 t.rank = t.freqNorm - 0;
             }
