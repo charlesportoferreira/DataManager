@@ -22,54 +22,49 @@ public class Start {
 
     public static void main(String args[]) {
         Ranker ranker = new Ranker();
-        Map<String, Termo> t1 = new HashMap<>();
-        Map<String, Termo> t2 = new HashMap<>();
+        Map<String, Termo> mapaWFL = new HashMap<>();
+        Map<String, Termo> mapaBase = new HashMap<>();
         try {
-            t1 = ranker.getFrequenciaWFL("WFL.csv");
-            t2 = ranker.getFrequenciaAbsoluta("1Gram.all");
+            mapaWFL = ranker.getFrequenciaWFL("WFL.csv");
+            mapaBase = ranker.getFrequenciaAbsoluta("1Gram.all");
         } catch (IOException ex) {
             Logger.getLogger(Ranker.class.getName()).log(Level.SEVERE, null, ex);
         }
-        System.out.println(Arrays.toString(ranker.getMinMax(t1)));
-        System.out.println(Arrays.toString(ranker.getMinMax(t2)));
-        ranker.imprimeMap("map1Gram.txt", t2);
-        int[] minMax1 = ranker.getMinMax(t1);
-        int[] minMax2 = ranker.getMinMax(t2);
-        ranker.normalizaDados(t1, minMax1[0], minMax1[1]);
-        ranker.normalizaDados(t2, minMax2[0], minMax2[1]);
-        ranker.imprimeMap("map1GramN.txt", t2);
-        ranker.rank(t1, t2);
-        ranker.imprimeMap("map1GramNR.txt", t2);
-        List<Termo> listaTermos = ranker.ordenaMap(t2);
+        System.out.println(Arrays.toString(ranker.getMinMax(mapaWFL)));
+        System.out.println(Arrays.toString(ranker.getMinMax(mapaBase)));
+        ranker.imprimeMap("map1Gram.txt", mapaBase);
+        int[] minMaxWFL = ranker.getMinMax(mapaWFL);
+        int[] minMaxBase = ranker.getMinMax(mapaBase);
+        ranker.normalizaDados(mapaWFL, minMaxWFL[0], minMaxWFL[1]);
+        ranker.normalizaDados(mapaBase, minMaxBase[0], minMaxBase[1]);
+        ranker.imprimeMap("map1GramN.txt", mapaBase);
+        ranker.rank(mapaWFL, mapaBase);
+        ranker.imprimeMap("map1GramNR.txt", mapaBase);
+        List<Termo> listaTermos = ranker.ordenaMap(mapaBase);
         ranker.imprimeList("List1GramOrder.txt", listaTermos);
-        int n = 300;
+        int n = 500;
         ranker.imprime_n_melhores(n, listaTermos);
 
         BagOfWord bow = new BagOfWord();
+        List<Instancia> textos = criaInstanciaTextos(bow, ranker, n, listaTermos);
+        List<Instancia> classes = criaInstanciaClasses(bow, n, textos);
+        List<Instancia> distancias = criaInstanciasDistancias(textos, classes, bow);
+        StringBuilder sbClasses = getNomeClasses(classes);
+        bow.generateBagOfWord(distancias, classes.size(), sbClasses.toString(), "teste.arff");
 
-        //cria as instancias dos textos
-        List<Instancia> textos = new ArrayList<>();
-        try {
-            textos = bow.geraInstancias("1Gram.txt", ranker.get_n_melhores(n, listaTermos));
-        } catch (IOException ex) {
-            Logger.getLogger(Ranker.class.getName()).log(Level.SEVERE, null, ex);
+    }
+
+    public static StringBuilder getNomeClasses(List<Instancia> classes) {
+        StringBuilder sbClasses = new StringBuilder("@ATTRIBUTE classe {");
+        for (Instancia cl : classes) {
+            sbClasses.append(cl.classe).append(",");
         }
+        int pos = sbClasses.lastIndexOf(",");
+        sbClasses.replace(pos, pos + 1, "}");
+        return sbClasses;
+    }
 
-        //cria as instancias das classes
-        List<Instancia> classes = new ArrayList<>();
-        for (String nomeClasse : bow.nomeClasses) {
-            Instancia insClasse = new Instancia(n);
-            insClasse.classe = nomeClasse;
-            for (Instancia insTextos : textos) {
-                if (insTextos.classe.equals(nomeClasse)) {
-                    bow.somaVetores(insClasse.palavras, insTextos.palavras);
-
-                }
-            }
-            classes.add(insClasse);
-        }
-        System.out.println("\n");
-
+    public static List<Instancia> criaInstanciasDistancias(List<Instancia> textos, List<Instancia> classes, BagOfWord bow) {
         //cria as instancias com a distancia entre os textos e as classes
         List<Instancia> distancias = new ArrayList<>();
         for (Instancia texto : textos) {
@@ -82,16 +77,36 @@ public class Start {
             distancias.add(ins);
             System.out.println(ins.toArff());
         }
+        return distancias;
+    }
 
-        StringBuilder sbClasses = new StringBuilder("@ATTRIBUTE classe {");
-        for (Instancia cl : classes) {
-            sbClasses.append(cl.classe).append(",");
+    public static List<Instancia> criaInstanciaClasses(BagOfWord bow, int n, List<Instancia> textos) {
+        //cria as instancias das classes
+        List<Instancia> classes = new ArrayList<>();
+        for (String nomeClasse : bow.nomeClasses) {
+            Instancia insClasse = new Instancia(n);
+            insClasse.classe = nomeClasse;
+            for (Instancia insTextos : textos) {
+                if (insTextos.classe.equals(nomeClasse)) {
+                    bow.somaVetores(insClasse.palavras, insTextos.palavras);
+                    
+                }
+            }
+            classes.add(insClasse);
         }
-        int pos = sbClasses.lastIndexOf(",");
-        sbClasses.replace(pos, pos + 1, "}");
+        System.out.println("\n");
+        return classes;
+    }
 
-        bow.generateBagOfWord(distancias, classes.size(), sbClasses.toString(), "teste.arff");
-
+    public static List<Instancia> criaInstanciaTextos(BagOfWord bow, Ranker ranker, int n, List<Termo> listaTermos) {
+        //cria as instancias dos textos
+        List<Instancia> textos = new ArrayList<>();
+        try {
+            textos = bow.geraInstancias("1Gram.txt", ranker.get_n_melhores(n, listaTermos));
+        } catch (IOException ex) {
+            Logger.getLogger(Ranker.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        return textos;
     }
 
 }
