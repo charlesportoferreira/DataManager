@@ -7,7 +7,6 @@ package datamanager;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -25,7 +24,7 @@ import weka.classifiers.misc.HyperPipes;
 public class Start {
 
     public static void main(String args[]) {
-        for (int n = 100; n < 9000; n = n + 100) {
+        for (int n = 100; n < 5000; n = n + 100) {
             //int n = 500;
             Ranker ranker = new Ranker();
             Map<String, Termo> mapaWFL = new HashMap<>();
@@ -60,10 +59,11 @@ public class Start {
             bow.generateBagOfWord(distancias, classes.size(), sbClasses.toString(), fileName);
 
             System.out.println("");
+           
             classifica(fileName, new SMO(), n);
             classifica(fileName, new HyperPipes(), n);
             classifica(fileName, new IBk(5), n);
-            classifica(fileName, new IBk(1), n);
+            //classifica(fileName, new IBk(1), n);
         }
 
     }
