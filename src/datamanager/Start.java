@@ -24,7 +24,16 @@ import weka.classifiers.misc.HyperPipes;
 public class Start {
 
     public static void main(String args[]) {
-        for (int n = 100; n < 5000; n = n + 100) {
+        int min, max = 0;
+        if (args.length > 0) {
+            min = Integer.parseInt(args[0]);
+            max = Integer.parseInt(args[1]);
+        } else {
+            min = 100;
+            max = 5000;
+        }
+
+        for (int n = min; n < max; n = n + 100) {
             //int n = 500;
             Ranker ranker = new Ranker();
             Map<String, Termo> mapaWFL = new HashMap<>();
@@ -59,7 +68,7 @@ public class Start {
             bow.generateBagOfWord(distancias, classes.size(), sbClasses.toString(), fileName);
 
             System.out.println("");
-           
+
             classifica(fileName, new SMO(), n);
             classifica(fileName, new HyperPipes(), n);
             classifica(fileName, new IBk(5), n);
@@ -97,7 +106,7 @@ public class Start {
             }
             ins.palavras = vet;
             distancias.add(ins);
-           // System.out.println(ins.toArff());
+            // System.out.println(ins.toArff());
         }
         return distancias;
     }
