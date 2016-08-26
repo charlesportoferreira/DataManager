@@ -13,9 +13,14 @@ import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import weka.classifiers.Classifier;
+import weka.classifiers.bayes.NaiveBayes;
+import weka.classifiers.bayes.NaiveBayesSimple;
+import weka.classifiers.functions.MultilayerPerceptron;
 import weka.classifiers.functions.SMO;
 import weka.classifiers.lazy.IBk;
+import weka.classifiers.meta.GridSearch;
 import weka.classifiers.misc.HyperPipes;
+import weka.classifiers.trees.J48;
 
 /**
  *
@@ -29,8 +34,8 @@ public class Start {
             min = Integer.parseInt(args[0]);
             max = Integer.parseInt(args[1]);
         } else {
-            min = 100;
-            max = 5000;
+            min = 50;
+            max = 9041;
         }
 
         for (int n = min; n < max; n = n + 100) {
@@ -70,8 +75,22 @@ public class Start {
             System.out.println("");
 
             classifica(fileName, new SMO(), n);
-            classifica(fileName, new HyperPipes(), n);
+//            classifica(fileName, new HyperPipes(), n);
+            classifica(fileName, new IBk(3), n);
             classifica(fileName, new IBk(5), n);
+            classifica(fileName, new IBk(7), n);
+            classifica(fileName, new IBk(9), n);
+            classifica(fileName, new IBk(11), n);
+            classifica(fileName, new IBk(13), n);
+            classifica(fileName, new IBk(15), n);
+            classifica(fileName, new IBk(17), n);
+            classifica(fileName, new IBk(19), n);
+            classifica(fileName, new NaiveBayes(), n);
+            classifica(fileName, new NaiveBayesSimple(), n);
+            classifica(fileName, new J48(), n);
+            classifica(fileName, new MultilayerPerceptron(), n);
+            
+//            classifica(fileName, new GridSearch(), n);
             //classifica(fileName, new IBk(1), n);
         }
 
@@ -79,16 +98,16 @@ public class Start {
 
     public static void classifica(String fileName, Classifier classificador, int n) {
         WekaSimulation wekaSimulation = new WekaSimulation();
-        SMO smo = new SMO();
+       // SMO smo = new SMO();
 
         wekaSimulation.classifica(classificador, fileName);
-        System.out.println(wekaSimulation + "\t" + n + " selecionados" + "\t" + classificador.getClass());
+        System.out.println(wekaSimulation + "\t" + n + " selecionados" + "\t" + classificador.getClass().getSimpleName());
     }
 
     public static StringBuilder getNomeClasses(List<Instancia> classes) {
         StringBuilder sbClasses = new StringBuilder("@ATTRIBUTE classe {");
         for (Instancia cl : classes) {
-            sbClasses.append(cl.classe).append(",");
+            sbClasses.append(cl.classe).append(",");    
         }
         int pos = sbClasses.lastIndexOf(",");
         sbClasses.replace(pos, pos + 1, "}");

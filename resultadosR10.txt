@@ -1,0 +1,1530 @@
+
+
+
+at:11	acertos:59.99	micro:0.36	macro:0.31	50 selecionados	SMO
+at:11	acertos:73.81	micro:0.62	macro:0.46	50 selecionados	IBk
+at:11	acertos:74.42	micro:0.63	macro:0.47	50 selecionados	IBk
+at:11	acertos:75.13	micro:0.64	macro:0.48	50 selecionados	IBk
+at:11	acertos:75.67	micro:0.64	macro:0.49	50 selecionados	IBk
+at:11	acertos:76.14	micro:0.65	macro:0.49	50 selecionados	IBk
+at:11	acertos:76.35	micro:0.65	macro:0.5	50 selecionados	IBk
+at:11	acertos:76.5	micro:0.66	macro:0.5	50 selecionados	IBk
+at:11	acertos:76.82	micro:0.66	macro:0.5	50 selecionados	IBk
+at:11	acertos:76.57	micro:0.65	macro:0.5	50 selecionados	IBk
+at:11	acertos:46.32	micro:0.45	macro:0.35	50 selecionados	NaiveBayes
+at:11	acertos:46.47	micro:0.45	macro:0.34	50 selecionados	NaiveBayesSimple
+at:11	acertos:72.26	micro:0.62	macro:0.45	50 selecionados	J48
+at:11	acertos:77.22	micro:0.66	macro:0.5	50 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:63.76	micro:0.43	macro:0.32	150 selecionados	SMO
+at:11	acertos:77.32	micro:0.67	macro:0.51	150 selecionados	IBk
+at:11	acertos:78.33	micro:0.68	macro:0.53	150 selecionados	IBk
+at:11	acertos:79.8	micro:0.7	macro:0.56	150 selecionados	IBk
+at:11	acertos:80.16	micro:0.71	macro:0.56	150 selecionados	IBk
+at:11	acertos:80.48	micro:0.71	macro:0.56	150 selecionados	IBk
+at:11	acertos:80.88	micro:0.72	macro:0.56	150 selecionados	IBk
+at:11	acertos:81.02	micro:0.72	macro:0.57	150 selecionados	IBk
+at:11	acertos:81.09	micro:0.72	macro:0.57	150 selecionados	IBk
+at:11	acertos:80.8	micro:0.72	macro:0.56	150 selecionados	IBk
+at:11	acertos:54.36	micro:0.49	macro:0.38	150 selecionados	NaiveBayes
+at:11	acertos:54.29	micro:0.49	macro:0.37	150 selecionados	NaiveBayesSimple
+at:11	acertos:75.74	micro:0.66	macro:0.5	150 selecionados	J48
+at:11	acertos:80.84	micro:0.71	macro:0.56	150 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.66	micro:0.44	macro:0.34	250 selecionados	SMO
+at:11	acertos:78.61	micro:0.69	macro:0.53	250 selecionados	IBk
+at:11	acertos:79.3	micro:0.69	macro:0.54	250 selecionados	IBk
+at:11	acertos:80.19	micro:0.71	macro:0.56	250 selecionados	IBk
+at:11	acertos:80.55	micro:0.71	macro:0.57	250 selecionados	IBk
+at:11	acertos:80.95	micro:0.72	macro:0.57	250 selecionados	IBk
+at:11	acertos:81.52	micro:0.73	macro:0.58	250 selecionados	IBk
+at:11	acertos:81.27	micro:0.72	macro:0.57	250 selecionados	IBk
+at:11	acertos:81.2	micro:0.72	macro:0.57	250 selecionados	IBk
+at:11	acertos:81.13	micro:0.72	macro:0.57	250 selecionados	IBk
+at:11	acertos:55.51	micro:0.49	macro:0.38	250 selecionados	NaiveBayes
+at:11	acertos:55.54	micro:0.49	macro:0.38	250 selecionados	NaiveBayesSimple
+at:11	acertos:76.53	micro:0.67	macro:0.51	250 selecionados	J48
+at:11	acertos:81.45	micro:0.72	macro:0.59	250 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.37	micro:0.44	macro:0.33	350 selecionados	SMO
+at:11	acertos:78.69	micro:0.68	macro:0.53	350 selecionados	IBk
+at:11	acertos:79.55	micro:0.7	macro:0.55	350 selecionados	IBk
+at:11	acertos:80.41	micro:0.71	macro:0.56	350 selecionados	IBk
+at:11	acertos:80.91	micro:0.72	macro:0.57	350 selecionados	IBk
+at:11	acertos:81.23	micro:0.72	macro:0.57	350 selecionados	IBk
+at:11	acertos:81.41	micro:0.73	macro:0.58	350 selecionados	IBk
+at:11	acertos:81.41	micro:0.73	macro:0.57	350 selecionados	IBk
+at:11	acertos:81.34	micro:0.72	macro:0.57	350 selecionados	IBk
+at:11	acertos:81.38	micro:0.73	macro:0.57	350 selecionados	IBk
+at:11	acertos:56.23	micro:0.5	macro:0.38	350 selecionados	NaiveBayes
+at:11	acertos:56.15	micro:0.5	macro:0.38	350 selecionados	NaiveBayesSimple
+at:11	acertos:77.32	micro:0.68	macro:0.52	350 selecionados	J48
+at:11	acertos:81.02	micro:0.72	macro:0.58	350 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.51	micro:0.44	macro:0.33	450 selecionados	SMO
+at:11	acertos:79.12	micro:0.69	macro:0.54	450 selecionados	IBk
+at:11	acertos:79.87	micro:0.7	macro:0.55	450 selecionados	IBk
+at:11	acertos:80.77	micro:0.71	macro:0.57	450 selecionados	IBk
+at:11	acertos:81.41	micro:0.72	macro:0.58	450 selecionados	IBk
+at:11	acertos:81.63	micro:0.73	macro:0.58	450 selecionados	IBk
+at:11	acertos:81.31	micro:0.72	macro:0.57	450 selecionados	IBk
+at:11	acertos:81.41	micro:0.73	macro:0.58	450 selecionados	IBk
+at:11	acertos:81.52	micro:0.73	macro:0.57	450 selecionados	IBk
+at:11	acertos:81.49	micro:0.73	macro:0.57	450 selecionados	IBk
+at:11	acertos:56.55	micro:0.5	macro:0.39	450 selecionados	NaiveBayes
+at:11	acertos:56.51	micro:0.5	macro:0.39	450 selecionados	NaiveBayesSimple
+at:11	acertos:76.82	micro:0.68	macro:0.52	450 selecionados	J48
+at:11	acertos:81.59	micro:0.73	macro:0.59	450 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.51	micro:0.44	macro:0.33	550 selecionados	SMO
+at:11	acertos:78.65	micro:0.68	macro:0.53	550 selecionados	IBk
+at:11	acertos:79.73	micro:0.7	macro:0.55	550 selecionados	IBk
+at:11	acertos:80.52	micro:0.71	macro:0.56	550 selecionados	IBk
+at:11	acertos:81.38	micro:0.72	macro:0.58	550 selecionados	IBk
+at:11	acertos:81.56	micro:0.73	macro:0.58	550 selecionados	IBk
+at:11	acertos:81.56	micro:0.73	macro:0.58	550 selecionados	IBk
+at:11	acertos:81.49	micro:0.73	macro:0.58	550 selecionados	IBk
+at:11	acertos:81.7	micro:0.73	macro:0.58	550 selecionados	IBk
+at:11	acertos:81.63	micro:0.73	macro:0.58	550 selecionados	IBk
+at:11	acertos:56.51	micro:0.5	macro:0.39	550 selecionados	NaiveBayes
+at:11	acertos:56.51	micro:0.5	macro:0.39	550 selecionados	NaiveBayesSimple
+at:11	acertos:76.43	micro:0.67	macro:0.5	550 selecionados	J48
+at:11	acertos:81.92	micro:0.73	macro:0.59	550 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.55	micro:0.44	macro:0.33	650 selecionados	SMO
+at:11	acertos:78.79	micro:0.69	macro:0.53	650 selecionados	IBk
+at:11	acertos:79.51	micro:0.69	macro:0.54	650 selecionados	IBk
+at:11	acertos:80.77	micro:0.71	macro:0.56	650 selecionados	IBk
+at:11	acertos:81.56	micro:0.73	macro:0.58	650 selecionados	IBk
+at:11	acertos:81.77	micro:0.73	macro:0.58	650 selecionados	IBk
+at:11	acertos:81.59	micro:0.73	macro:0.58	650 selecionados	IBk
+at:11	acertos:81.7	micro:0.73	macro:0.58	650 selecionados	IBk
+at:11	acertos:81.7	micro:0.73	macro:0.58	650 selecionados	IBk
+at:11	acertos:81.77	micro:0.73	macro:0.58	650 selecionados	IBk
+at:11	acertos:56.69	micro:0.5	macro:0.39	650 selecionados	NaiveBayes
+at:11	acertos:56.62	micro:0.5	macro:0.39	650 selecionados	NaiveBayesSimple
+at:11	acertos:76.71	micro:0.67	macro:0.51	650 selecionados	J48
+at:11	acertos:81.99	micro:0.73	macro:0.59	650 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.69	micro:0.44	macro:0.33	750 selecionados	SMO
+at:11	acertos:78.76	micro:0.69	macro:0.53	750 selecionados	IBk
+at:11	acertos:79.44	micro:0.69	macro:0.54	750 selecionados	IBk
+at:11	acertos:80.66	micro:0.71	macro:0.56	750 selecionados	IBk
+at:11	acertos:81.41	micro:0.72	macro:0.58	750 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	750 selecionados	IBk
+at:11	acertos:81.66	micro:0.73	macro:0.58	750 selecionados	IBk
+at:11	acertos:81.52	micro:0.73	macro:0.57	750 selecionados	IBk
+at:11	acertos:81.66	micro:0.73	macro:0.58	750 selecionados	IBk
+at:11	acertos:81.7	micro:0.73	macro:0.58	750 selecionados	IBk
+at:11	acertos:56.69	micro:0.5	macro:0.39	750 selecionados	NaiveBayes
+at:11	acertos:56.73	micro:0.5	macro:0.39	750 selecionados	NaiveBayesSimple
+at:11	acertos:76.79	micro:0.68	macro:0.51	750 selecionados	J48
+at:11	acertos:82.13	micro:0.74	macro:0.59	750 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.69	micro:0.44	macro:0.33	850 selecionados	SMO
+at:11	acertos:78.87	micro:0.69	macro:0.53	850 selecionados	IBk
+at:11	acertos:79.58	micro:0.7	macro:0.55	850 selecionados	IBk
+at:11	acertos:80.73	micro:0.71	macro:0.56	850 selecionados	IBk
+at:11	acertos:81.34	micro:0.72	macro:0.58	850 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.58	850 selecionados	IBk
+at:11	acertos:81.66	micro:0.73	macro:0.58	850 selecionados	IBk
+at:11	acertos:81.56	micro:0.73	macro:0.57	850 selecionados	IBk
+at:11	acertos:81.66	micro:0.73	macro:0.58	850 selecionados	IBk
+at:11	acertos:81.66	micro:0.73	macro:0.58	850 selecionados	IBk
+at:11	acertos:56.84	micro:0.5	macro:0.39	850 selecionados	NaiveBayes
+at:11	acertos:56.87	micro:0.5	macro:0.39	850 selecionados	NaiveBayesSimple
+at:11	acertos:76.79	micro:0.67	macro:0.51	850 selecionados	J48
+at:11	acertos:82.2	micro:0.74	macro:0.6	850 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.69	micro:0.44	macro:0.33	950 selecionados	SMO
+at:11	acertos:79.08	micro:0.69	macro:0.54	950 selecionados	IBk
+at:11	acertos:79.73	micro:0.7	macro:0.55	950 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.56	950 selecionados	IBk
+at:11	acertos:81.41	micro:0.72	macro:0.58	950 selecionados	IBk
+at:11	acertos:81.63	micro:0.73	macro:0.58	950 selecionados	IBk
+at:11	acertos:81.63	micro:0.73	macro:0.58	950 selecionados	IBk
+at:11	acertos:81.7	micro:0.73	macro:0.58	950 selecionados	IBk
+at:11	acertos:81.7	micro:0.73	macro:0.58	950 selecionados	IBk
+at:11	acertos:81.63	micro:0.73	macro:0.58	950 selecionados	IBk
+at:11	acertos:56.87	micro:0.5	macro:0.39	950 selecionados	NaiveBayes
+at:11	acertos:56.84	micro:0.5	macro:0.39	950 selecionados	NaiveBayesSimple
+at:11	acertos:76.71	micro:0.67	macro:0.51	950 selecionados	J48
+at:11	acertos:82.31	micro:0.74	macro:0.6	950 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.76	micro:0.44	macro:0.33	1050 selecionados	SMO
+at:11	acertos:79.08	micro:0.69	macro:0.54	1050 selecionados	IBk
+at:11	acertos:79.83	micro:0.7	macro:0.55	1050 selecionados	IBk
+at:11	acertos:80.91	micro:0.72	macro:0.57	1050 selecionados	IBk
+at:11	acertos:81.49	micro:0.73	macro:0.58	1050 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	1050 selecionados	IBk
+at:11	acertos:81.56	micro:0.73	macro:0.58	1050 selecionados	IBk
+at:11	acertos:81.84	micro:0.73	macro:0.58	1050 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	1050 selecionados	IBk
+at:11	acertos:81.77	micro:0.73	macro:0.58	1050 selecionados	IBk
+at:11	acertos:56.8	micro:0.5	macro:0.39	1050 selecionados	NaiveBayes
+at:11	acertos:56.91	micro:0.5	macro:0.39	1050 selecionados	NaiveBayesSimple
+at:11	acertos:77.18	micro:0.67	macro:0.51	1050 selecionados	J48
+at:11	acertos:82.27	micro:0.74	macro:0.6	1050 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.8	micro:0.45	macro:0.34	1150 selecionados	SMO
+at:11	acertos:79.15	micro:0.69	macro:0.54	1150 selecionados	IBk
+at:11	acertos:79.73	micro:0.7	macro:0.55	1150 selecionados	IBk
+at:11	acertos:80.91	micro:0.72	macro:0.56	1150 selecionados	IBk
+at:11	acertos:81.52	micro:0.73	macro:0.58	1150 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	1150 selecionados	IBk
+at:11	acertos:81.59	micro:0.73	macro:0.58	1150 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.58	1150 selecionados	IBk
+at:11	acertos:81.84	micro:0.73	macro:0.58	1150 selecionados	IBk
+at:11	acertos:81.88	micro:0.73	macro:0.58	1150 selecionados	IBk
+at:11	acertos:56.8	micro:0.5	macro:0.39	1150 selecionados	NaiveBayes
+at:11	acertos:56.91	micro:0.5	macro:0.39	1150 selecionados	NaiveBayesSimple
+at:11	acertos:77.43	micro:0.67	macro:0.51	1150 selecionados	J48
+at:11	acertos:82.35	micro:0.74	macro:0.6	1150 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.76	micro:0.44	macro:0.33	1250 selecionados	SMO
+at:11	acertos:79.22	micro:0.69	macro:0.54	1250 selecionados	IBk
+at:11	acertos:79.83	micro:0.7	macro:0.55	1250 selecionados	IBk
+at:11	acertos:80.95	micro:0.72	macro:0.57	1250 selecionados	IBk
+at:11	acertos:81.56	micro:0.73	macro:0.58	1250 selecionados	IBk
+at:11	acertos:81.66	micro:0.73	macro:0.58	1250 selecionados	IBk
+at:11	acertos:81.56	micro:0.73	macro:0.58	1250 selecionados	IBk
+at:11	acertos:81.99	micro:0.73	macro:0.58	1250 selecionados	IBk
+at:11	acertos:81.88	micro:0.73	macro:0.58	1250 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.58	1250 selecionados	IBk
+at:11	acertos:56.84	micro:0.5	macro:0.39	1250 selecionados	NaiveBayes
+at:11	acertos:56.73	micro:0.5	macro:0.39	1250 selecionados	NaiveBayesSimple
+at:11	acertos:76.82	micro:0.67	macro:0.5	1250 selecionados	J48
+at:11	acertos:82.53	micro:0.74	macro:0.6	1250 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.84	micro:0.44	macro:0.34	1350 selecionados	SMO
+at:11	acertos:79.3	micro:0.69	macro:0.54	1350 selecionados	IBk
+at:11	acertos:79.8	micro:0.7	macro:0.55	1350 selecionados	IBk
+at:11	acertos:80.95	micro:0.72	macro:0.57	1350 selecionados	IBk
+at:11	acertos:81.52	micro:0.73	macro:0.58	1350 selecionados	IBk
+at:11	acertos:81.63	micro:0.73	macro:0.58	1350 selecionados	IBk
+at:11	acertos:81.59	micro:0.73	macro:0.58	1350 selecionados	IBk
+at:11	acertos:82.06	micro:0.74	macro:0.58	1350 selecionados	IBk
+at:11	acertos:81.84	micro:0.73	macro:0.58	1350 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.58	1350 selecionados	IBk
+at:11	acertos:56.76	micro:0.5	macro:0.39	1350 selecionados	NaiveBayes
+at:11	acertos:56.62	micro:0.5	macro:0.39	1350 selecionados	NaiveBayesSimple
+at:11	acertos:76.86	micro:0.67	macro:0.51	1350 selecionados	J48
+at:11	acertos:82.38	micro:0.74	macro:0.6	1350 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.87	micro:0.45	macro:0.34	1450 selecionados	SMO
+at:11	acertos:79.33	micro:0.69	macro:0.54	1450 selecionados	IBk
+at:11	acertos:79.8	micro:0.7	macro:0.55	1450 selecionados	IBk
+at:11	acertos:80.91	micro:0.72	macro:0.57	1450 selecionados	IBk
+at:11	acertos:81.52	micro:0.73	macro:0.58	1450 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	1450 selecionados	IBk
+at:11	acertos:81.66	micro:0.73	macro:0.58	1450 selecionados	IBk
+at:11	acertos:82.02	micro:0.73	macro:0.58	1450 selecionados	IBk
+at:11	acertos:81.88	micro:0.73	macro:0.58	1450 selecionados	IBk
+at:11	acertos:81.84	micro:0.73	macro:0.58	1450 selecionados	IBk
+at:11	acertos:56.62	micro:0.5	macro:0.39	1450 selecionados	NaiveBayes
+at:11	acertos:56.58	micro:0.5	macro:0.39	1450 selecionados	NaiveBayesSimple
+at:11	acertos:76.93	micro:0.67	macro:0.51	1450 selecionados	J48
+at:11	acertos:82.38	micro:0.74	macro:0.6	1450 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.73	micro:0.44	macro:0.33	1550 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	1550 selecionados	IBk
+at:11	acertos:79.76	micro:0.7	macro:0.55	1550 selecionados	IBk
+at:11	acertos:80.91	micro:0.71	macro:0.56	1550 selecionados	IBk
+at:11	acertos:81.52	micro:0.73	macro:0.58	1550 selecionados	IBk
+at:11	acertos:81.63	micro:0.73	macro:0.58	1550 selecionados	IBk
+at:11	acertos:81.63	micro:0.73	macro:0.58	1550 selecionados	IBk
+at:11	acertos:82.02	micro:0.73	macro:0.58	1550 selecionados	IBk
+at:11	acertos:81.95	micro:0.73	macro:0.58	1550 selecionados	IBk
+at:11	acertos:81.84	micro:0.73	macro:0.58	1550 selecionados	IBk
+at:11	acertos:56.66	micro:0.5	macro:0.39	1550 selecionados	NaiveBayes
+at:11	acertos:56.55	micro:0.5	macro:0.39	1550 selecionados	NaiveBayesSimple
+at:11	acertos:76.96	micro:0.67	macro:0.51	1550 selecionados	J48
+at:11	acertos:82.45	micro:0.74	macro:0.6	1550 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.76	micro:0.44	macro:0.33	1650 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	1650 selecionados	IBk
+at:11	acertos:79.8	micro:0.7	macro:0.55	1650 selecionados	IBk
+at:11	acertos:80.91	micro:0.71	macro:0.56	1650 selecionados	IBk
+at:11	acertos:81.59	micro:0.73	macro:0.58	1650 selecionados	IBk
+at:11	acertos:81.66	micro:0.73	macro:0.58	1650 selecionados	IBk
+at:11	acertos:81.63	micro:0.73	macro:0.58	1650 selecionados	IBk
+at:11	acertos:82.06	micro:0.74	macro:0.58	1650 selecionados	IBk
+at:11	acertos:82.02	micro:0.73	macro:0.58	1650 selecionados	IBk
+at:11	acertos:81.77	micro:0.73	macro:0.58	1650 selecionados	IBk
+at:11	acertos:56.55	micro:0.5	macro:0.39	1650 selecionados	NaiveBayes
+at:11	acertos:56.51	micro:0.5	macro:0.39	1650 selecionados	NaiveBayesSimple
+at:11	acertos:77.47	micro:0.68	macro:0.52	1650 selecionados	J48
+at:11	acertos:82.42	micro:0.74	macro:0.6	1650 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.66	micro:0.44	macro:0.33	1750 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	1750 selecionados	IBk
+at:11	acertos:79.83	micro:0.7	macro:0.55	1750 selecionados	IBk
+at:11	acertos:80.88	micro:0.72	macro:0.57	1750 selecionados	IBk
+at:11	acertos:81.56	micro:0.73	macro:0.58	1750 selecionados	IBk
+at:11	acertos:81.66	micro:0.73	macro:0.58	1750 selecionados	IBk
+at:11	acertos:81.66	micro:0.73	macro:0.58	1750 selecionados	IBk
+at:11	acertos:82.1	micro:0.74	macro:0.58	1750 selecionados	IBk
+at:11	acertos:82.02	micro:0.73	macro:0.58	1750 selecionados	IBk
+at:11	acertos:81.77	micro:0.73	macro:0.58	1750 selecionados	IBk
+at:11	acertos:56.51	micro:0.5	macro:0.39	1750 selecionados	NaiveBayes
+at:11	acertos:56.51	micro:0.5	macro:0.39	1750 selecionados	NaiveBayesSimple
+at:11	acertos:77.4	micro:0.68	macro:0.52	1750 selecionados	J48
+at:11	acertos:82.35	micro:0.74	macro:0.6	1750 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.84	micro:0.44	macro:0.34	1850 selecionados	SMO
+at:11	acertos:79.48	micro:0.7	macro:0.54	1850 selecionados	IBk
+at:11	acertos:79.83	micro:0.7	macro:0.55	1850 selecionados	IBk
+at:11	acertos:80.88	micro:0.72	macro:0.57	1850 selecionados	IBk
+at:11	acertos:81.59	micro:0.73	macro:0.58	1850 selecionados	IBk
+at:11	acertos:81.7	micro:0.73	macro:0.58	1850 selecionados	IBk
+at:11	acertos:81.7	micro:0.73	macro:0.58	1850 selecionados	IBk
+at:11	acertos:82.13	micro:0.74	macro:0.59	1850 selecionados	IBk
+at:11	acertos:82.1	micro:0.74	macro:0.58	1850 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.58	1850 selecionados	IBk
+at:11	acertos:56.4	micro:0.5	macro:0.39	1850 selecionados	NaiveBayes
+at:11	acertos:56.51	micro:0.5	macro:0.39	1850 selecionados	NaiveBayesSimple
+at:11	acertos:77.5	micro:0.68	macro:0.52	1850 selecionados	J48
+at:11	acertos:82.31	micro:0.74	macro:0.6	1850 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.8	micro:0.44	macro:0.34	1950 selecionados	SMO
+at:11	acertos:79.33	micro:0.69	macro:0.54	1950 selecionados	IBk
+at:11	acertos:79.76	micro:0.7	macro:0.55	1950 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	1950 selecionados	IBk
+at:11	acertos:81.52	micro:0.73	macro:0.58	1950 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.58	1950 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	1950 selecionados	IBk
+at:11	acertos:82.1	micro:0.74	macro:0.58	1950 selecionados	IBk
+at:11	acertos:82.13	micro:0.74	macro:0.58	1950 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	1950 selecionados	IBk
+at:11	acertos:56.48	micro:0.5	macro:0.39	1950 selecionados	NaiveBayes
+at:11	acertos:56.48	micro:0.5	macro:0.39	1950 selecionados	NaiveBayesSimple
+at:11	acertos:77.65	micro:0.68	macro:0.52	1950 selecionados	J48
+at:11	acertos:82.35	micro:0.74	macro:0.6	1950 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.87	micro:0.44	macro:0.34	2050 selecionados	SMO
+at:11	acertos:79.33	micro:0.69	macro:0.54	2050 selecionados	IBk
+at:11	acertos:79.76	micro:0.7	macro:0.55	2050 selecionados	IBk
+at:11	acertos:80.77	micro:0.71	macro:0.56	2050 selecionados	IBk
+at:11	acertos:81.56	micro:0.73	macro:0.58	2050 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.58	2050 selecionados	IBk
+at:11	acertos:81.7	micro:0.73	macro:0.58	2050 selecionados	IBk
+at:11	acertos:82.06	micro:0.73	macro:0.58	2050 selecionados	IBk
+at:11	acertos:82.06	micro:0.73	macro:0.58	2050 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	2050 selecionados	IBk
+at:11	acertos:56.48	micro:0.5	macro:0.39	2050 selecionados	NaiveBayes
+at:11	acertos:56.44	micro:0.5	macro:0.39	2050 selecionados	NaiveBayesSimple
+at:11	acertos:77.32	micro:0.68	macro:0.52	2050 selecionados	J48
+at:11	acertos:82.42	micro:0.74	macro:0.6	2050 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.91	micro:0.45	macro:0.34	2150 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	2150 selecionados	IBk
+at:11	acertos:79.8	micro:0.7	macro:0.55	2150 selecionados	IBk
+at:11	acertos:80.84	micro:0.72	macro:0.57	2150 selecionados	IBk
+at:11	acertos:81.63	micro:0.73	macro:0.58	2150 selecionados	IBk
+at:11	acertos:81.84	micro:0.73	macro:0.58	2150 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	2150 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	2150 selecionados	IBk
+at:11	acertos:82.13	micro:0.74	macro:0.58	2150 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	2150 selecionados	IBk
+at:11	acertos:56.4	micro:0.5	macro:0.39	2150 selecionados	NaiveBayes
+at:11	acertos:56.4	micro:0.5	macro:0.39	2150 selecionados	NaiveBayesSimple
+at:11	acertos:77.5	micro:0.68	macro:0.52	2150 selecionados	J48
+at:11	acertos:82.49	micro:0.74	macro:0.6	2150 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.84	micro:0.44	macro:0.34	2250 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	2250 selecionados	IBk
+at:11	acertos:79.83	micro:0.7	macro:0.55	2250 selecionados	IBk
+at:11	acertos:80.8	micro:0.71	macro:0.57	2250 selecionados	IBk
+at:11	acertos:81.63	micro:0.73	macro:0.58	2250 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.58	2250 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	2250 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	2250 selecionados	IBk
+at:11	acertos:82.1	micro:0.73	macro:0.58	2250 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	2250 selecionados	IBk
+at:11	acertos:56.37	micro:0.5	macro:0.39	2250 selecionados	NaiveBayes
+at:11	acertos:56.44	micro:0.5	macro:0.39	2250 selecionados	NaiveBayesSimple
+at:11	acertos:77.43	micro:0.68	macro:0.52	2250 selecionados	J48
+at:11	acertos:82.31	micro:0.74	macro:0.6	2250 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.87	micro:0.44	macro:0.34	2350 selecionados	SMO
+at:11	acertos:79.33	micro:0.7	macro:0.54	2350 selecionados	IBk
+at:11	acertos:79.83	micro:0.7	macro:0.55	2350 selecionados	IBk
+at:11	acertos:80.84	micro:0.72	macro:0.57	2350 selecionados	IBk
+at:11	acertos:81.59	micro:0.73	macro:0.58	2350 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.58	2350 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	2350 selecionados	IBk
+at:11	acertos:82.2	micro:0.74	macro:0.59	2350 selecionados	IBk
+at:11	acertos:82.1	micro:0.73	macro:0.58	2350 selecionados	IBk
+at:11	acertos:81.7	micro:0.73	macro:0.58	2350 selecionados	IBk
+at:11	acertos:56.3	micro:0.5	macro:0.39	2350 selecionados	NaiveBayes
+at:11	acertos:56.4	micro:0.5	macro:0.39	2350 selecionados	NaiveBayesSimple
+at:11	acertos:77.5	micro:0.68	macro:0.52	2350 selecionados	J48
+at:11	acertos:82.38	micro:0.74	macro:0.6	2350 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.87	micro:0.44	macro:0.34	2450 selecionados	SMO
+at:11	acertos:79.4	micro:0.7	macro:0.54	2450 selecionados	IBk
+at:11	acertos:79.87	micro:0.7	macro:0.55	2450 selecionados	IBk
+at:11	acertos:80.8	micro:0.71	macro:0.57	2450 selecionados	IBk
+at:11	acertos:81.59	micro:0.73	macro:0.58	2450 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.58	2450 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	2450 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	2450 selecionados	IBk
+at:11	acertos:82.1	micro:0.73	macro:0.58	2450 selecionados	IBk
+at:11	acertos:81.7	micro:0.73	macro:0.58	2450 selecionados	IBk
+at:11	acertos:56.44	micro:0.5	macro:0.39	2450 selecionados	NaiveBayes
+at:11	acertos:56.37	micro:0.5	macro:0.39	2450 selecionados	NaiveBayesSimple
+at:11	acertos:77.25	micro:0.68	macro:0.52	2450 selecionados	J48
+at:11	acertos:82.27	micro:0.74	macro:0.6	2450 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.94	micro:0.45	macro:0.34	2550 selecionados	SMO
+at:11	acertos:79.44	micro:0.7	macro:0.55	2550 selecionados	IBk
+at:11	acertos:79.87	micro:0.7	macro:0.55	2550 selecionados	IBk
+at:11	acertos:80.8	micro:0.71	macro:0.57	2550 selecionados	IBk
+at:11	acertos:81.59	micro:0.73	macro:0.58	2550 selecionados	IBk
+at:11	acertos:81.84	micro:0.73	macro:0.58	2550 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	2550 selecionados	IBk
+at:11	acertos:82.2	micro:0.74	macro:0.59	2550 selecionados	IBk
+at:11	acertos:82.1	micro:0.73	macro:0.58	2550 selecionados	IBk
+at:11	acertos:81.7	micro:0.73	macro:0.58	2550 selecionados	IBk
+at:11	acertos:56.4	micro:0.5	macro:0.39	2550 selecionados	NaiveBayes
+at:11	acertos:56.37	micro:0.5	macro:0.39	2550 selecionados	NaiveBayesSimple
+at:11	acertos:77.18	micro:0.68	macro:0.52	2550 selecionados	J48
+at:11	acertos:82.27	micro:0.74	macro:0.6	2550 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.76	micro:0.44	macro:0.33	2650 selecionados	SMO
+at:11	acertos:79.4	micro:0.7	macro:0.54	2650 selecionados	IBk
+at:11	acertos:79.87	micro:0.7	macro:0.55	2650 selecionados	IBk
+at:11	acertos:80.84	micro:0.72	macro:0.57	2650 selecionados	IBk
+at:11	acertos:81.56	micro:0.73	macro:0.58	2650 selecionados	IBk
+at:11	acertos:81.84	micro:0.73	macro:0.58	2650 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	2650 selecionados	IBk
+at:11	acertos:82.2	micro:0.74	macro:0.59	2650 selecionados	IBk
+at:11	acertos:82.1	micro:0.73	macro:0.58	2650 selecionados	IBk
+at:11	acertos:81.66	micro:0.73	macro:0.58	2650 selecionados	IBk
+at:11	acertos:56.33	micro:0.5	macro:0.39	2650 selecionados	NaiveBayes
+at:11	acertos:56.37	micro:0.5	macro:0.39	2650 selecionados	NaiveBayesSimple
+at:11	acertos:77.54	micro:0.68	macro:0.52	2650 selecionados	J48
+at:11	acertos:82.42	micro:0.74	macro:0.6	2650 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.87	micro:0.44	macro:0.33	2750 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	2750 selecionados	IBk
+at:11	acertos:79.87	micro:0.7	macro:0.55	2750 selecionados	IBk
+at:11	acertos:80.88	micro:0.72	macro:0.57	2750 selecionados	IBk
+at:11	acertos:81.56	micro:0.73	macro:0.58	2750 selecionados	IBk
+at:11	acertos:81.84	micro:0.73	macro:0.58	2750 selecionados	IBk
+at:11	acertos:81.77	micro:0.73	macro:0.58	2750 selecionados	IBk
+at:11	acertos:82.2	micro:0.74	macro:0.59	2750 selecionados	IBk
+at:11	acertos:82.1	micro:0.73	macro:0.58	2750 selecionados	IBk
+at:11	acertos:81.66	micro:0.73	macro:0.58	2750 selecionados	IBk
+at:11	acertos:56.3	micro:0.5	macro:0.39	2750 selecionados	NaiveBayes
+at:11	acertos:56.37	micro:0.5	macro:0.39	2750 selecionados	NaiveBayesSimple
+at:11	acertos:77.75	micro:0.68	macro:0.52	2750 selecionados	J48
+at:11	acertos:82.49	micro:0.74	macro:0.6	2750 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.87	micro:0.44	macro:0.34	2850 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	2850 selecionados	IBk
+at:11	acertos:79.87	micro:0.7	macro:0.55	2850 selecionados	IBk
+at:11	acertos:80.88	micro:0.72	macro:0.57	2850 selecionados	IBk
+at:11	acertos:81.56	micro:0.73	macro:0.58	2850 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.58	2850 selecionados	IBk
+at:11	acertos:81.77	micro:0.73	macro:0.58	2850 selecionados	IBk
+at:11	acertos:82.2	micro:0.74	macro:0.59	2850 selecionados	IBk
+at:11	acertos:82.13	micro:0.74	macro:0.58	2850 selecionados	IBk
+at:11	acertos:81.66	micro:0.73	macro:0.58	2850 selecionados	IBk
+at:11	acertos:56.37	micro:0.5	macro:0.39	2850 selecionados	NaiveBayes
+at:11	acertos:56.33	micro:0.5	macro:0.39	2850 selecionados	NaiveBayesSimple
+at:11	acertos:77.5	micro:0.68	macro:0.52	2850 selecionados	J48
+at:11	acertos:82.45	micro:0.74	macro:0.6	2850 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.98	micro:0.45	macro:0.34	2950 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	2950 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	2950 selecionados	IBk
+at:11	acertos:80.8	micro:0.71	macro:0.57	2950 selecionados	IBk
+at:11	acertos:81.56	micro:0.73	macro:0.58	2950 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.58	2950 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.58	2950 selecionados	IBk
+at:11	acertos:82.2	micro:0.74	macro:0.59	2950 selecionados	IBk
+at:11	acertos:82.1	micro:0.73	macro:0.58	2950 selecionados	IBk
+at:11	acertos:81.66	micro:0.73	macro:0.58	2950 selecionados	IBk
+at:11	acertos:56.33	micro:0.5	macro:0.39	2950 selecionados	NaiveBayes
+at:11	acertos:56.33	micro:0.5	macro:0.39	2950 selecionados	NaiveBayesSimple
+at:11	acertos:77.18	micro:0.67	macro:0.51	2950 selecionados	J48
+at:11	acertos:82.45	micro:0.74	macro:0.6	2950 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.94	micro:0.45	macro:0.34	3050 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	3050 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	3050 selecionados	IBk
+at:11	acertos:80.8	micro:0.71	macro:0.57	3050 selecionados	IBk
+at:11	acertos:81.56	micro:0.73	macro:0.58	3050 selecionados	IBk
+at:11	acertos:81.84	micro:0.73	macro:0.58	3050 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.58	3050 selecionados	IBk
+at:11	acertos:82.2	micro:0.74	macro:0.59	3050 selecionados	IBk
+at:11	acertos:82.1	micro:0.73	macro:0.58	3050 selecionados	IBk
+at:11	acertos:81.63	micro:0.73	macro:0.58	3050 selecionados	IBk
+at:11	acertos:56.3	micro:0.5	macro:0.39	3050 selecionados	NaiveBayes
+at:11	acertos:56.33	micro:0.5	macro:0.39	3050 selecionados	NaiveBayesSimple
+at:11	acertos:77.14	micro:0.67	macro:0.51	3050 selecionados	J48
+at:11	acertos:82.53	micro:0.74	macro:0.6	3050 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.87	micro:0.44	macro:0.34	3150 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	3150 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	3150 selecionados	IBk
+at:11	acertos:80.8	micro:0.71	macro:0.57	3150 selecionados	IBk
+at:11	acertos:81.63	micro:0.73	macro:0.58	3150 selecionados	IBk
+at:11	acertos:81.88	micro:0.73	macro:0.58	3150 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.58	3150 selecionados	IBk
+at:11	acertos:82.2	micro:0.74	macro:0.59	3150 selecionados	IBk
+at:11	acertos:82.1	micro:0.73	macro:0.58	3150 selecionados	IBk
+at:11	acertos:81.63	micro:0.73	macro:0.58	3150 selecionados	IBk
+at:11	acertos:56.26	micro:0.5	macro:0.39	3150 selecionados	NaiveBayes
+at:11	acertos:56.33	micro:0.5	macro:0.39	3150 selecionados	NaiveBayesSimple
+at:11	acertos:77.14	micro:0.67	macro:0.51	3150 selecionados	J48
+at:11	acertos:82.53	micro:0.74	macro:0.6	3150 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.91	micro:0.44	macro:0.34	3250 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	3250 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	3250 selecionados	IBk
+at:11	acertos:80.8	micro:0.71	macro:0.57	3250 selecionados	IBk
+at:11	acertos:81.63	micro:0.73	macro:0.58	3250 selecionados	IBk
+at:11	acertos:81.88	micro:0.73	macro:0.58	3250 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.58	3250 selecionados	IBk
+at:11	acertos:82.2	micro:0.74	macro:0.59	3250 selecionados	IBk
+at:11	acertos:82.1	micro:0.73	macro:0.58	3250 selecionados	IBk
+at:11	acertos:81.63	micro:0.73	macro:0.58	3250 selecionados	IBk
+at:11	acertos:56.37	micro:0.5	macro:0.39	3250 selecionados	NaiveBayes
+at:11	acertos:56.33	micro:0.5	macro:0.39	3250 selecionados	NaiveBayesSimple
+at:11	acertos:77.36	micro:0.67	macro:0.52	3250 selecionados	J48
+at:11	acertos:82.6	micro:0.74	macro:0.6	3250 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:65.02	micro:0.45	macro:0.34	3350 selecionados	SMO
+at:11	acertos:79.33	micro:0.7	macro:0.54	3350 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	3350 selecionados	IBk
+at:11	acertos:80.8	micro:0.71	macro:0.57	3350 selecionados	IBk
+at:11	acertos:81.7	micro:0.73	macro:0.58	3350 selecionados	IBk
+at:11	acertos:81.88	micro:0.73	macro:0.58	3350 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.58	3350 selecionados	IBk
+at:11	acertos:82.2	micro:0.74	macro:0.59	3350 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	3350 selecionados	IBk
+at:11	acertos:81.63	micro:0.73	macro:0.58	3350 selecionados	IBk
+at:11	acertos:56.37	micro:0.5	macro:0.39	3350 selecionados	NaiveBayes
+at:11	acertos:56.33	micro:0.5	macro:0.39	3350 selecionados	NaiveBayesSimple
+at:11	acertos:77.22	micro:0.67	macro:0.51	3350 selecionados	J48
+at:11	acertos:82.49	micro:0.74	macro:0.6	3350 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.94	micro:0.44	macro:0.34	3450 selecionados	SMO
+at:11	acertos:79.33	micro:0.7	macro:0.54	3450 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	3450 selecionados	IBk
+at:11	acertos:80.8	micro:0.71	macro:0.57	3450 selecionados	IBk
+at:11	acertos:81.7	micro:0.73	macro:0.58	3450 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	3450 selecionados	IBk
+at:11	acertos:81.84	micro:0.73	macro:0.58	3450 selecionados	IBk
+at:11	acertos:82.2	micro:0.74	macro:0.59	3450 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	3450 selecionados	IBk
+at:11	acertos:81.63	micro:0.73	macro:0.58	3450 selecionados	IBk
+at:11	acertos:56.26	micro:0.5	macro:0.39	3450 selecionados	NaiveBayes
+at:11	acertos:56.33	micro:0.5	macro:0.39	3450 selecionados	NaiveBayesSimple
+at:11	acertos:77.29	micro:0.67	macro:0.51	3450 selecionados	J48
+at:11	acertos:82.67	micro:0.74	macro:0.6	3450 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.91	micro:0.45	macro:0.34	3550 selecionados	SMO
+at:11	acertos:79.33	micro:0.7	macro:0.54	3550 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	3550 selecionados	IBk
+at:11	acertos:80.8	micro:0.71	macro:0.57	3550 selecionados	IBk
+at:11	acertos:81.7	micro:0.73	macro:0.58	3550 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	3550 selecionados	IBk
+at:11	acertos:81.84	micro:0.73	macro:0.58	3550 selecionados	IBk
+at:11	acertos:82.2	micro:0.74	macro:0.59	3550 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.58	3550 selecionados	IBk
+at:11	acertos:81.63	micro:0.73	macro:0.58	3550 selecionados	IBk
+at:11	acertos:56.33	micro:0.5	macro:0.39	3550 selecionados	NaiveBayes
+at:11	acertos:56.33	micro:0.5	macro:0.39	3550 selecionados	NaiveBayesSimple
+at:11	acertos:77.18	micro:0.67	macro:0.51	3550 selecionados	J48
+at:11	acertos:82.67	micro:0.74	macro:0.6	3550 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:65.02	micro:0.45	macro:0.34	3650 selecionados	SMO
+at:11	acertos:79.33	micro:0.7	macro:0.54	3650 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	3650 selecionados	IBk
+at:11	acertos:80.8	micro:0.71	macro:0.57	3650 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.59	3650 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	3650 selecionados	IBk
+at:11	acertos:81.84	micro:0.73	macro:0.58	3650 selecionados	IBk
+at:11	acertos:82.2	micro:0.74	macro:0.59	3650 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.58	3650 selecionados	IBk
+at:11	acertos:81.63	micro:0.73	macro:0.58	3650 selecionados	IBk
+at:11	acertos:56.4	micro:0.5	macro:0.39	3650 selecionados	NaiveBayes
+at:11	acertos:56.3	micro:0.5	macro:0.39	3650 selecionados	NaiveBayesSimple
+at:11	acertos:77.11	micro:0.67	macro:0.51	3650 selecionados	J48
+at:11	acertos:82.67	micro:0.74	macro:0.6	3650 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.84	micro:0.44	macro:0.34	3750 selecionados	SMO
+at:11	acertos:79.33	micro:0.7	macro:0.54	3750 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	3750 selecionados	IBk
+at:11	acertos:80.8	micro:0.71	macro:0.57	3750 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.59	3750 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	3750 selecionados	IBk
+at:11	acertos:81.84	micro:0.73	macro:0.58	3750 selecionados	IBk
+at:11	acertos:82.24	micro:0.74	macro:0.59	3750 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.58	3750 selecionados	IBk
+at:11	acertos:81.63	micro:0.73	macro:0.58	3750 selecionados	IBk
+at:11	acertos:56.44	micro:0.5	macro:0.39	3750 selecionados	NaiveBayes
+at:11	acertos:56.33	micro:0.5	macro:0.39	3750 selecionados	NaiveBayesSimple
+at:11	acertos:77.32	micro:0.67	macro:0.52	3750 selecionados	J48
+at:11	acertos:82.6	micro:0.74	macro:0.6	3750 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:65.05	micro:0.45	macro:0.34	3850 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	3850 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	3850 selecionados	IBk
+at:11	acertos:80.8	micro:0.71	macro:0.57	3850 selecionados	IBk
+at:11	acertos:81.7	micro:0.73	macro:0.58	3850 selecionados	IBk
+at:11	acertos:81.95	micro:0.73	macro:0.58	3850 selecionados	IBk
+at:11	acertos:81.88	micro:0.73	macro:0.58	3850 selecionados	IBk
+at:11	acertos:82.24	micro:0.74	macro:0.59	3850 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.58	3850 selecionados	IBk
+at:11	acertos:81.7	micro:0.73	macro:0.58	3850 selecionados	IBk
+at:11	acertos:56.23	micro:0.5	macro:0.39	3850 selecionados	NaiveBayes
+at:11	acertos:56.33	micro:0.5	macro:0.39	3850 selecionados	NaiveBayesSimple
+at:11	acertos:77.32	micro:0.68	macro:0.52	3850 selecionados	J48
+at:11	acertos:82.56	micro:0.74	macro:0.6	3850 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.94	micro:0.45	macro:0.34	3950 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	3950 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	3950 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	3950 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.59	3950 selecionados	IBk
+at:11	acertos:81.95	micro:0.73	macro:0.58	3950 selecionados	IBk
+at:11	acertos:81.88	micro:0.73	macro:0.58	3950 selecionados	IBk
+at:11	acertos:82.24	micro:0.74	macro:0.59	3950 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.58	3950 selecionados	IBk
+at:11	acertos:81.7	micro:0.73	macro:0.58	3950 selecionados	IBk
+at:11	acertos:56.37	micro:0.5	macro:0.39	3950 selecionados	NaiveBayes
+at:11	acertos:56.33	micro:0.5	macro:0.39	3950 selecionados	NaiveBayesSimple
+at:11	acertos:77.29	micro:0.67	macro:0.51	3950 selecionados	J48
+at:11	acertos:82.63	micro:0.74	macro:0.6	3950 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.94	micro:0.45	macro:0.34	4050 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	4050 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	4050 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	4050 selecionados	IBk
+at:11	acertos:81.77	micro:0.73	macro:0.59	4050 selecionados	IBk
+at:11	acertos:81.95	micro:0.73	macro:0.58	4050 selecionados	IBk
+at:11	acertos:81.88	micro:0.73	macro:0.58	4050 selecionados	IBk
+at:11	acertos:82.24	micro:0.74	macro:0.59	4050 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.58	4050 selecionados	IBk
+at:11	acertos:81.7	micro:0.73	macro:0.58	4050 selecionados	IBk
+at:11	acertos:56.19	micro:0.5	macro:0.39	4050 selecionados	NaiveBayes
+at:11	acertos:56.33	micro:0.5	macro:0.39	4050 selecionados	NaiveBayesSimple
+at:11	acertos:77.25	micro:0.67	macro:0.51	4050 selecionados	J48
+at:11	acertos:82.6	micro:0.74	macro:0.6	4050 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.76	micro:0.44	macro:0.33	4150 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	4150 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	4150 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	4150 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	4150 selecionados	IBk
+at:11	acertos:81.95	micro:0.73	macro:0.58	4150 selecionados	IBk
+at:11	acertos:81.88	micro:0.73	macro:0.58	4150 selecionados	IBk
+at:11	acertos:82.24	micro:0.74	macro:0.59	4150 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.58	4150 selecionados	IBk
+at:11	acertos:81.7	micro:0.73	macro:0.58	4150 selecionados	IBk
+at:11	acertos:56.26	micro:0.5	macro:0.39	4150 selecionados	NaiveBayes
+at:11	acertos:56.26	micro:0.5	macro:0.39	4150 selecionados	NaiveBayesSimple
+at:11	acertos:76.89	micro:0.67	macro:0.5	4150 selecionados	J48
+at:11	acertos:82.63	micro:0.74	macro:0.6	4150 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.98	micro:0.45	macro:0.34	4250 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	4250 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	4250 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	4250 selecionados	IBk
+at:11	acertos:81.7	micro:0.73	macro:0.58	4250 selecionados	IBk
+at:11	acertos:81.95	micro:0.73	macro:0.58	4250 selecionados	IBk
+at:11	acertos:81.88	micro:0.73	macro:0.58	4250 selecionados	IBk
+at:11	acertos:82.2	micro:0.74	macro:0.59	4250 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.58	4250 selecionados	IBk
+at:11	acertos:81.66	micro:0.73	macro:0.58	4250 selecionados	IBk
+at:11	acertos:56.12	micro:0.5	macro:0.39	4250 selecionados	NaiveBayes
+at:11	acertos:56.26	micro:0.5	macro:0.39	4250 selecionados	NaiveBayesSimple
+at:11	acertos:76.93	micro:0.67	macro:0.51	4250 selecionados	J48
+at:11	acertos:82.63	micro:0.74	macro:0.6	4250 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:65.02	micro:0.45	macro:0.34	4350 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	4350 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	4350 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	4350 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	4350 selecionados	IBk
+at:11	acertos:81.95	micro:0.73	macro:0.58	4350 selecionados	IBk
+at:11	acertos:81.88	micro:0.73	macro:0.58	4350 selecionados	IBk
+at:11	acertos:82.2	micro:0.74	macro:0.59	4350 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.58	4350 selecionados	IBk
+at:11	acertos:81.66	micro:0.73	macro:0.58	4350 selecionados	IBk
+at:11	acertos:56.3	micro:0.5	macro:0.39	4350 selecionados	NaiveBayes
+at:11	acertos:56.23	micro:0.5	macro:0.39	4350 selecionados	NaiveBayesSimple
+at:11	acertos:77.22	micro:0.68	macro:0.51	4350 selecionados	J48
+at:11	acertos:82.67	micro:0.74	macro:0.6	4350 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.98	micro:0.45	macro:0.34	4450 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	4450 selecionados	IBk
+at:11	acertos:79.94	micro:0.7	macro:0.55	4450 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	4450 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	4450 selecionados	IBk
+at:11	acertos:81.95	micro:0.73	macro:0.58	4450 selecionados	IBk
+at:11	acertos:81.88	micro:0.73	macro:0.58	4450 selecionados	IBk
+at:11	acertos:82.2	micro:0.74	macro:0.59	4450 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.58	4450 selecionados	IBk
+at:11	acertos:81.66	micro:0.73	macro:0.58	4450 selecionados	IBk
+at:11	acertos:56.19	micro:0.5	macro:0.39	4450 selecionados	NaiveBayes
+at:11	acertos:56.19	micro:0.5	macro:0.39	4450 selecionados	NaiveBayesSimple
+at:11	acertos:77.18	micro:0.67	macro:0.51	4450 selecionados	J48
+at:11	acertos:82.67	micro:0.74	macro:0.6	4450 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.87	micro:0.44	macro:0.34	4550 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	4550 selecionados	IBk
+at:11	acertos:79.94	micro:0.7	macro:0.55	4550 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	4550 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	4550 selecionados	IBk
+at:11	acertos:81.95	micro:0.73	macro:0.58	4550 selecionados	IBk
+at:11	acertos:81.88	micro:0.73	macro:0.58	4550 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	4550 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.58	4550 selecionados	IBk
+at:11	acertos:81.63	micro:0.73	macro:0.58	4550 selecionados	IBk
+at:11	acertos:56.23	micro:0.5	macro:0.39	4550 selecionados	NaiveBayes
+at:11	acertos:56.19	micro:0.5	macro:0.39	4550 selecionados	NaiveBayesSimple
+at:11	acertos:77.07	micro:0.67	macro:0.51	4550 selecionados	J48
+at:11	acertos:82.71	micro:0.74	macro:0.6	4550 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.94	micro:0.44	macro:0.34	4650 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	4650 selecionados	IBk
+at:11	acertos:79.94	micro:0.7	macro:0.55	4650 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	4650 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	4650 selecionados	IBk
+at:11	acertos:81.95	micro:0.73	macro:0.58	4650 selecionados	IBk
+at:11	acertos:81.88	micro:0.73	macro:0.58	4650 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	4650 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.58	4650 selecionados	IBk
+at:11	acertos:81.63	micro:0.73	macro:0.58	4650 selecionados	IBk
+at:11	acertos:56.26	micro:0.5	macro:0.39	4650 selecionados	NaiveBayes
+at:11	acertos:56.19	micro:0.5	macro:0.39	4650 selecionados	NaiveBayesSimple
+at:11	acertos:77.25	micro:0.68	macro:0.51	4650 selecionados	J48
+at:11	acertos:82.71	micro:0.74	macro:0.6	4650 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.98	micro:0.45	macro:0.34	4750 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	4750 selecionados	IBk
+at:11	acertos:79.94	micro:0.7	macro:0.55	4750 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	4750 selecionados	IBk
+at:11	acertos:81.77	micro:0.73	macro:0.59	4750 selecionados	IBk
+at:11	acertos:81.95	micro:0.73	macro:0.58	4750 selecionados	IBk
+at:11	acertos:81.88	micro:0.73	macro:0.58	4750 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	4750 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.58	4750 selecionados	IBk
+at:11	acertos:81.63	micro:0.73	macro:0.58	4750 selecionados	IBk
+at:11	acertos:56.05	micro:0.5	macro:0.39	4750 selecionados	NaiveBayes
+at:11	acertos:56.19	micro:0.5	macro:0.39	4750 selecionados	NaiveBayesSimple
+at:11	acertos:77.22	micro:0.67	macro:0.51	4750 selecionados	J48
+at:11	acertos:82.71	micro:0.74	macro:0.6	4750 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:65.02	micro:0.45	macro:0.34	4850 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	4850 selecionados	IBk
+at:11	acertos:79.94	micro:0.7	macro:0.55	4850 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	4850 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	4850 selecionados	IBk
+at:11	acertos:81.95	micro:0.73	macro:0.58	4850 selecionados	IBk
+at:11	acertos:81.88	micro:0.73	macro:0.58	4850 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	4850 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.58	4850 selecionados	IBk
+at:11	acertos:81.63	micro:0.73	macro:0.58	4850 selecionados	IBk
+at:11	acertos:56.15	micro:0.5	macro:0.39	4850 selecionados	NaiveBayes
+at:11	acertos:56.19	micro:0.5	macro:0.39	4850 selecionados	NaiveBayesSimple
+at:11	acertos:77.22	micro:0.67	macro:0.51	4850 selecionados	J48
+at:11	acertos:82.71	micro:0.74	macro:0.6	4850 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:65.02	micro:0.45	macro:0.34	4950 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	4950 selecionados	IBk
+at:11	acertos:79.94	micro:0.7	macro:0.55	4950 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	4950 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	4950 selecionados	IBk
+at:11	acertos:81.95	micro:0.73	macro:0.58	4950 selecionados	IBk
+at:11	acertos:81.88	micro:0.73	macro:0.58	4950 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	4950 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.58	4950 selecionados	IBk
+at:11	acertos:81.63	micro:0.73	macro:0.58	4950 selecionados	IBk
+at:11	acertos:56.12	micro:0.5	macro:0.39	4950 selecionados	NaiveBayes
+at:11	acertos:56.15	micro:0.5	macro:0.39	4950 selecionados	NaiveBayesSimple
+at:11	acertos:77.25	micro:0.67	macro:0.51	4950 selecionados	J48
+at:11	acertos:82.74	micro:0.74	macro:0.6	4950 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:65.02	micro:0.45	macro:0.34	5050 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	5050 selecionados	IBk
+at:11	acertos:79.94	micro:0.7	macro:0.55	5050 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	5050 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	5050 selecionados	IBk
+at:11	acertos:81.95	micro:0.73	macro:0.58	5050 selecionados	IBk
+at:11	acertos:81.88	micro:0.73	macro:0.58	5050 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	5050 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.58	5050 selecionados	IBk
+at:11	acertos:81.63	micro:0.73	macro:0.58	5050 selecionados	IBk
+at:11	acertos:56.01	micro:0.5	macro:0.39	5050 selecionados	NaiveBayes
+at:11	acertos:56.15	micro:0.5	macro:0.39	5050 selecionados	NaiveBayesSimple
+at:11	acertos:77.14	micro:0.67	macro:0.51	5050 selecionados	J48
+at:11	acertos:82.74	micro:0.74	macro:0.6	5050 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:65.05	micro:0.45	macro:0.34	5150 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	5150 selecionados	IBk
+at:11	acertos:79.94	micro:0.7	macro:0.55	5150 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	5150 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	5150 selecionados	IBk
+at:11	acertos:81.95	micro:0.73	macro:0.58	5150 selecionados	IBk
+at:11	acertos:81.88	micro:0.73	macro:0.58	5150 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	5150 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	5150 selecionados	IBk
+at:11	acertos:81.63	micro:0.73	macro:0.58	5150 selecionados	IBk
+at:11	acertos:56.08	micro:0.5	macro:0.39	5150 selecionados	NaiveBayes
+at:11	acertos:56.15	micro:0.5	macro:0.39	5150 selecionados	NaiveBayesSimple
+at:11	acertos:77.11	micro:0.67	macro:0.51	5150 selecionados	J48
+at:11	acertos:82.74	micro:0.74	macro:0.6	5150 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.98	micro:0.45	macro:0.34	5250 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	5250 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	5250 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	5250 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	5250 selecionados	IBk
+at:11	acertos:81.95	micro:0.73	macro:0.58	5250 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	5250 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	5250 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	5250 selecionados	IBk
+at:11	acertos:81.66	micro:0.73	macro:0.58	5250 selecionados	IBk
+at:11	acertos:55.94	micro:0.5	macro:0.39	5250 selecionados	NaiveBayes
+at:11	acertos:56.15	micro:0.5	macro:0.39	5250 selecionados	NaiveBayesSimple
+at:11	acertos:77.07	micro:0.67	macro:0.51	5250 selecionados	J48
+at:11	acertos:82.67	micro:0.74	macro:0.6	5250 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.98	micro:0.45	macro:0.34	5350 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	5350 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	5350 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	5350 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	5350 selecionados	IBk
+at:11	acertos:81.95	micro:0.73	macro:0.58	5350 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	5350 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	5350 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	5350 selecionados	IBk
+at:11	acertos:81.66	micro:0.73	macro:0.58	5350 selecionados	IBk
+at:11	acertos:56.12	micro:0.5	macro:0.39	5350 selecionados	NaiveBayes
+at:11	acertos:56.15	micro:0.5	macro:0.39	5350 selecionados	NaiveBayesSimple
+at:11	acertos:77.14	micro:0.67	macro:0.51	5350 selecionados	J48
+at:11	acertos:82.71	micro:0.74	macro:0.6	5350 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.98	micro:0.45	macro:0.34	5450 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	5450 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	5450 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	5450 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	5450 selecionados	IBk
+at:11	acertos:81.95	micro:0.73	macro:0.58	5450 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	5450 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	5450 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	5450 selecionados	IBk
+at:11	acertos:81.66	micro:0.73	macro:0.58	5450 selecionados	IBk
+at:11	acertos:56.08	micro:0.5	macro:0.39	5450 selecionados	NaiveBayes
+at:11	acertos:56.12	micro:0.5	macro:0.39	5450 selecionados	NaiveBayesSimple
+at:11	acertos:77.22	micro:0.67	macro:0.51	5450 selecionados	J48
+at:11	acertos:82.71	micro:0.74	macro:0.6	5450 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:65.02	micro:0.45	macro:0.34	5550 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	5550 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	5550 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	5550 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	5550 selecionados	IBk
+at:11	acertos:81.95	micro:0.73	macro:0.58	5550 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	5550 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	5550 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	5550 selecionados	IBk
+at:11	acertos:81.66	micro:0.73	macro:0.58	5550 selecionados	IBk
+at:11	acertos:55.97	micro:0.5	macro:0.39	5550 selecionados	NaiveBayes
+at:11	acertos:56.12	micro:0.5	macro:0.39	5550 selecionados	NaiveBayesSimple
+at:11	acertos:77.11	micro:0.67	macro:0.51	5550 selecionados	J48
+at:11	acertos:82.67	micro:0.74	macro:0.6	5550 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:65.02	micro:0.45	macro:0.34	5650 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	5650 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	5650 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	5650 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	5650 selecionados	IBk
+at:11	acertos:81.95	micro:0.73	macro:0.58	5650 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	5650 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	5650 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	5650 selecionados	IBk
+at:11	acertos:81.66	micro:0.73	macro:0.58	5650 selecionados	IBk
+at:11	acertos:56.15	micro:0.5	macro:0.39	5650 selecionados	NaiveBayes
+at:11	acertos:56.12	micro:0.5	macro:0.39	5650 selecionados	NaiveBayesSimple
+at:11	acertos:77.07	micro:0.67	macro:0.51	5650 selecionados	J48
+at:11	acertos:82.71	micro:0.74	macro:0.6	5650 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:65.05	micro:0.45	macro:0.34	5750 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	5750 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	5750 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	5750 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	5750 selecionados	IBk
+at:11	acertos:81.95	micro:0.73	macro:0.58	5750 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	5750 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	5750 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	5750 selecionados	IBk
+at:11	acertos:81.66	micro:0.73	macro:0.58	5750 selecionados	IBk
+at:11	acertos:56.23	micro:0.5	macro:0.39	5750 selecionados	NaiveBayes
+at:11	acertos:56.12	micro:0.5	macro:0.39	5750 selecionados	NaiveBayesSimple
+at:11	acertos:77.11	micro:0.67	macro:0.51	5750 selecionados	J48
+at:11	acertos:82.74	micro:0.74	macro:0.6	5750 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:65.05	micro:0.45	macro:0.34	5850 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	5850 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	5850 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	5850 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	5850 selecionados	IBk
+at:11	acertos:81.95	micro:0.73	macro:0.58	5850 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	5850 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	5850 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	5850 selecionados	IBk
+at:11	acertos:81.66	micro:0.73	macro:0.58	5850 selecionados	IBk
+at:11	acertos:56.19	micro:0.5	macro:0.39	5850 selecionados	NaiveBayes
+at:11	acertos:56.12	micro:0.5	macro:0.39	5850 selecionados	NaiveBayesSimple
+at:11	acertos:77.04	micro:0.67	macro:0.51	5850 selecionados	J48
+at:11	acertos:82.74	micro:0.74	macro:0.6	5850 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.94	micro:0.45	macro:0.34	5950 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	5950 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	5950 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	5950 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	5950 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	5950 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	5950 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	5950 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	5950 selecionados	IBk
+at:11	acertos:81.7	micro:0.73	macro:0.58	5950 selecionados	IBk
+at:11	acertos:56.12	micro:0.5	macro:0.39	5950 selecionados	NaiveBayes
+at:11	acertos:56.12	micro:0.5	macro:0.39	5950 selecionados	NaiveBayesSimple
+at:11	acertos:77.07	micro:0.67	macro:0.51	5950 selecionados	J48
+at:11	acertos:82.74	micro:0.74	macro:0.6	5950 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.98	micro:0.45	macro:0.34	6050 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	6050 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	6050 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	6050 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	6050 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	6050 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	6050 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	6050 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	6050 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	6050 selecionados	IBk
+at:11	acertos:56.12	micro:0.5	macro:0.39	6050 selecionados	NaiveBayes
+at:11	acertos:56.12	micro:0.5	macro:0.39	6050 selecionados	NaiveBayesSimple
+at:11	acertos:77.18	micro:0.67	macro:0.51	6050 selecionados	J48
+at:11	acertos:82.74	micro:0.74	macro:0.6	6050 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:65.05	micro:0.45	macro:0.34	6150 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	6150 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	6150 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	6150 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	6150 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	6150 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	6150 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	6150 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	6150 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	6150 selecionados	IBk
+at:11	acertos:56.23	micro:0.5	macro:0.39	6150 selecionados	NaiveBayes
+at:11	acertos:56.12	micro:0.5	macro:0.39	6150 selecionados	NaiveBayesSimple
+at:11	acertos:77.25	micro:0.67	macro:0.51	6150 selecionados	J48
+at:11	acertos:82.71	micro:0.74	macro:0.6	6150 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:65.02	micro:0.45	macro:0.34	6250 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	6250 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	6250 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	6250 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	6250 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	6250 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	6250 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	6250 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	6250 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	6250 selecionados	IBk
+at:11	acertos:56.12	micro:0.5	macro:0.39	6250 selecionados	NaiveBayes
+at:11	acertos:56.12	micro:0.5	macro:0.39	6250 selecionados	NaiveBayesSimple
+at:11	acertos:77.25	micro:0.67	macro:0.51	6250 selecionados	J48
+at:11	acertos:82.71	micro:0.74	macro:0.6	6250 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:65.02	micro:0.45	macro:0.34	6350 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	6350 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	6350 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	6350 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	6350 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	6350 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	6350 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	6350 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	6350 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	6350 selecionados	IBk
+at:11	acertos:56.23	micro:0.5	macro:0.39	6350 selecionados	NaiveBayes
+at:11	acertos:56.12	micro:0.5	macro:0.39	6350 selecionados	NaiveBayesSimple
+at:11	acertos:77.25	micro:0.67	macro:0.51	6350 selecionados	J48
+at:11	acertos:82.71	micro:0.74	macro:0.6	6350 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:65.02	micro:0.45	macro:0.34	6450 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	6450 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	6450 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	6450 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	6450 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	6450 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	6450 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	6450 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	6450 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	6450 selecionados	IBk
+at:11	acertos:56.15	micro:0.5	macro:0.39	6450 selecionados	NaiveBayes
+at:11	acertos:56.12	micro:0.5	macro:0.39	6450 selecionados	NaiveBayesSimple
+at:11	acertos:77.25	micro:0.67	macro:0.51	6450 selecionados	J48
+at:11	acertos:82.71	micro:0.74	macro:0.6	6450 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.98	micro:0.45	macro:0.34	6550 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	6550 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	6550 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	6550 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	6550 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	6550 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	6550 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	6550 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	6550 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	6550 selecionados	IBk
+at:11	acertos:56.15	micro:0.5	macro:0.39	6550 selecionados	NaiveBayes
+at:11	acertos:56.15	micro:0.5	macro:0.39	6550 selecionados	NaiveBayesSimple
+at:11	acertos:77.32	micro:0.67	macro:0.52	6550 selecionados	J48
+at:11	acertos:82.71	micro:0.74	macro:0.6	6550 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.98	micro:0.45	macro:0.34	6650 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	6650 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	6650 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	6650 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	6650 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	6650 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	6650 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	6650 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	6650 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	6650 selecionados	IBk
+at:11	acertos:56.05	micro:0.5	macro:0.39	6650 selecionados	NaiveBayes
+at:11	acertos:56.15	micro:0.5	macro:0.39	6650 selecionados	NaiveBayesSimple
+at:11	acertos:77.32	micro:0.67	macro:0.52	6650 selecionados	J48
+at:11	acertos:82.71	micro:0.74	macro:0.6	6650 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.94	micro:0.44	macro:0.34	6750 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	6750 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	6750 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	6750 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	6750 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	6750 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	6750 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	6750 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	6750 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	6750 selecionados	IBk
+at:11	acertos:56.01	micro:0.5	macro:0.39	6750 selecionados	NaiveBayes
+at:11	acertos:56.15	micro:0.5	macro:0.39	6750 selecionados	NaiveBayesSimple
+at:11	acertos:77.25	micro:0.67	macro:0.51	6750 selecionados	J48
+at:11	acertos:82.71	micro:0.74	macro:0.6	6750 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:65.02	micro:0.45	macro:0.34	6850 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	6850 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	6850 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	6850 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	6850 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	6850 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	6850 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	6850 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	6850 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	6850 selecionados	IBk
+at:11	acertos:56.05	micro:0.5	macro:0.39	6850 selecionados	NaiveBayes
+at:11	acertos:56.19	micro:0.5	macro:0.39	6850 selecionados	NaiveBayesSimple
+at:11	acertos:77.25	micro:0.67	macro:0.51	6850 selecionados	J48
+at:11	acertos:82.71	micro:0.74	macro:0.6	6850 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.98	micro:0.45	macro:0.34	6950 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	6950 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	6950 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	6950 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	6950 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	6950 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	6950 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	6950 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	6950 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	6950 selecionados	IBk
+at:11	acertos:56.08	micro:0.5	macro:0.39	6950 selecionados	NaiveBayes
+at:11	acertos:56.19	micro:0.5	macro:0.39	6950 selecionados	NaiveBayesSimple
+at:11	acertos:77.29	micro:0.67	macro:0.51	6950 selecionados	J48
+at:11	acertos:82.71	micro:0.74	macro:0.6	6950 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:65.02	micro:0.45	macro:0.34	7050 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	7050 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	7050 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	7050 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	7050 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	7050 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	7050 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	7050 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	7050 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	7050 selecionados	IBk
+at:11	acertos:56.12	micro:0.5	macro:0.39	7050 selecionados	NaiveBayes
+at:11	acertos:56.19	micro:0.5	macro:0.39	7050 selecionados	NaiveBayesSimple
+at:11	acertos:77.25	micro:0.67	macro:0.51	7050 selecionados	J48
+at:11	acertos:82.71	micro:0.74	macro:0.6	7050 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:65.05	micro:0.45	macro:0.34	7150 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	7150 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	7150 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	7150 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	7150 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	7150 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	7150 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	7150 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	7150 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	7150 selecionados	IBk
+at:11	acertos:56.05	micro:0.5	macro:0.39	7150 selecionados	NaiveBayes
+at:11	acertos:56.15	micro:0.5	macro:0.39	7150 selecionados	NaiveBayesSimple
+at:11	acertos:77.25	micro:0.67	macro:0.51	7150 selecionados	J48
+at:11	acertos:82.71	micro:0.74	macro:0.6	7150 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:65.02	micro:0.45	macro:0.34	7250 selecionados	SMO
+at:11	acertos:79.37	micro:0.7	macro:0.54	7250 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	7250 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	7250 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	7250 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	7250 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	7250 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	7250 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	7250 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	7250 selecionados	IBk
+at:11	acertos:56.19	micro:0.5	macro:0.39	7250 selecionados	NaiveBayes
+at:11	acertos:56.15	micro:0.5	macro:0.39	7250 selecionados	NaiveBayesSimple
+at:11	acertos:77.22	micro:0.67	macro:0.51	7250 selecionados	J48
+at:11	acertos:82.71	micro:0.74	macro:0.6	7250 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.98	micro:0.45	macro:0.34	7350 selecionados	SMO
+at:11	acertos:79.4	micro:0.7	macro:0.55	7350 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	7350 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	7350 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	7350 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	7350 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	7350 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	7350 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	7350 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	7350 selecionados	IBk
+at:11	acertos:56.15	micro:0.5	macro:0.39	7350 selecionados	NaiveBayes
+at:11	acertos:56.15	micro:0.5	macro:0.39	7350 selecionados	NaiveBayesSimple
+at:11	acertos:77.22	micro:0.67	macro:0.51	7350 selecionados	J48
+at:11	acertos:82.71	micro:0.74	macro:0.6	7350 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:65.02	micro:0.45	macro:0.34	7450 selecionados	SMO
+at:11	acertos:79.4	micro:0.7	macro:0.55	7450 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	7450 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	7450 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	7450 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	7450 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	7450 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	7450 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	7450 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	7450 selecionados	IBk
+at:11	acertos:56.19	micro:0.5	macro:0.39	7450 selecionados	NaiveBayes
+at:11	acertos:56.19	micro:0.5	macro:0.39	7450 selecionados	NaiveBayesSimple
+at:11	acertos:77.22	micro:0.67	macro:0.51	7450 selecionados	J48
+at:11	acertos:82.71	micro:0.74	macro:0.6	7450 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.94	micro:0.45	macro:0.34	7550 selecionados	SMO
+at:11	acertos:79.4	micro:0.7	macro:0.55	7550 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	7550 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	7550 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	7550 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	7550 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	7550 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	7550 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	7550 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	7550 selecionados	IBk
+at:11	acertos:56.08	micro:0.5	macro:0.39	7550 selecionados	NaiveBayes
+at:11	acertos:56.19	micro:0.5	macro:0.39	7550 selecionados	NaiveBayesSimple
+at:11	acertos:77.22	micro:0.67	macro:0.51	7550 selecionados	J48
+at:11	acertos:82.71	micro:0.74	macro:0.6	7550 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.98	micro:0.45	macro:0.34	7650 selecionados	SMO
+at:11	acertos:79.4	micro:0.7	macro:0.55	7650 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	7650 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	7650 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	7650 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	7650 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	7650 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	7650 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	7650 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	7650 selecionados	IBk
+at:11	acertos:56.19	micro:0.5	macro:0.39	7650 selecionados	NaiveBayes
+at:11	acertos:56.19	micro:0.5	macro:0.39	7650 selecionados	NaiveBayesSimple
+at:11	acertos:77.29	micro:0.67	macro:0.51	7650 selecionados	J48
+at:11	acertos:82.71	micro:0.74	macro:0.6	7650 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:65.02	micro:0.45	macro:0.34	7750 selecionados	SMO
+at:11	acertos:79.4	micro:0.7	macro:0.55	7750 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	7750 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	7750 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	7750 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	7750 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	7750 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	7750 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	7750 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	7750 selecionados	IBk
+at:11	acertos:56.05	micro:0.5	macro:0.39	7750 selecionados	NaiveBayes
+at:11	acertos:56.19	micro:0.5	macro:0.39	7750 selecionados	NaiveBayesSimple
+at:11	acertos:77.29	micro:0.67	macro:0.51	7750 selecionados	J48
+at:11	acertos:82.71	micro:0.74	macro:0.6	7750 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:65.05	micro:0.45	macro:0.34	7850 selecionados	SMO
+at:11	acertos:79.4	micro:0.7	macro:0.55	7850 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	7850 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	7850 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	7850 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	7850 selecionados	IBk
+at:11	acertos:81.95	micro:0.73	macro:0.58	7850 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	7850 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	7850 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	7850 selecionados	IBk
+at:11	acertos:56.05	micro:0.5	macro:0.39	7850 selecionados	NaiveBayes
+at:11	acertos:56.19	micro:0.5	macro:0.39	7850 selecionados	NaiveBayesSimple
+at:11	acertos:77.32	micro:0.67	macro:0.51	7850 selecionados	J48
+at:11	acertos:82.71	micro:0.74	macro:0.6	7850 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:65.05	micro:0.45	macro:0.34	7950 selecionados	SMO
+at:11	acertos:79.4	micro:0.7	macro:0.55	7950 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	7950 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	7950 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	7950 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	7950 selecionados	IBk
+at:11	acertos:81.95	micro:0.73	macro:0.58	7950 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	7950 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	7950 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	7950 selecionados	IBk
+at:11	acertos:56.05	micro:0.5	macro:0.39	7950 selecionados	NaiveBayes
+at:11	acertos:56.19	micro:0.5	macro:0.39	7950 selecionados	NaiveBayesSimple
+at:11	acertos:77.25	micro:0.67	macro:0.51	7950 selecionados	J48
+at:11	acertos:82.71	micro:0.74	macro:0.6	7950 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.98	micro:0.45	macro:0.34	8050 selecionados	SMO
+at:11	acertos:79.4	micro:0.7	macro:0.55	8050 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	8050 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	8050 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	8050 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	8050 selecionados	IBk
+at:11	acertos:81.95	micro:0.73	macro:0.58	8050 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	8050 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	8050 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	8050 selecionados	IBk
+at:11	acertos:56.15	micro:0.5	macro:0.39	8050 selecionados	NaiveBayes
+at:11	acertos:56.19	micro:0.5	macro:0.39	8050 selecionados	NaiveBayesSimple
+at:11	acertos:77.25	micro:0.67	macro:0.51	8050 selecionados	J48
+at:11	acertos:82.71	micro:0.74	macro:0.6	8050 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.98	micro:0.45	macro:0.34	8150 selecionados	SMO
+at:11	acertos:79.4	micro:0.7	macro:0.55	8150 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	8150 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	8150 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	8150 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	8150 selecionados	IBk
+at:11	acertos:81.95	micro:0.73	macro:0.58	8150 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	8150 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	8150 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	8150 selecionados	IBk
+at:11	acertos:56.01	micro:0.5	macro:0.38	8150 selecionados	NaiveBayes
+at:11	acertos:56.19	micro:0.5	macro:0.39	8150 selecionados	NaiveBayesSimple
+at:11	acertos:77.29	micro:0.67	macro:0.51	8150 selecionados	J48
+at:11	acertos:82.71	micro:0.74	macro:0.6	8150 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.98	micro:0.45	macro:0.34	8250 selecionados	SMO
+at:11	acertos:79.4	micro:0.7	macro:0.55	8250 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	8250 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	8250 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	8250 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	8250 selecionados	IBk
+at:11	acertos:81.95	micro:0.73	macro:0.58	8250 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	8250 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	8250 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	8250 selecionados	IBk
+at:11	acertos:56.19	micro:0.5	macro:0.39	8250 selecionados	NaiveBayes
+at:11	acertos:56.19	micro:0.5	macro:0.39	8250 selecionados	NaiveBayesSimple
+at:11	acertos:77.29	micro:0.67	macro:0.51	8250 selecionados	J48
+at:11	acertos:82.71	micro:0.74	macro:0.6	8250 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:65.05	micro:0.45	macro:0.34	8350 selecionados	SMO
+at:11	acertos:79.4	micro:0.7	macro:0.55	8350 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	8350 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	8350 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	8350 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	8350 selecionados	IBk
+at:11	acertos:81.95	micro:0.73	macro:0.58	8350 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	8350 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	8350 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	8350 selecionados	IBk
+at:11	acertos:56.19	micro:0.5	macro:0.39	8350 selecionados	NaiveBayes
+at:11	acertos:56.19	micro:0.5	macro:0.39	8350 selecionados	NaiveBayesSimple
+at:11	acertos:77.29	micro:0.67	macro:0.51	8350 selecionados	J48
+at:11	acertos:82.71	micro:0.74	macro:0.6	8350 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.94	micro:0.45	macro:0.34	8450 selecionados	SMO
+at:11	acertos:79.4	micro:0.7	macro:0.55	8450 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	8450 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	8450 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	8450 selecionados	IBk
+at:11	acertos:81.92	micro:0.73	macro:0.58	8450 selecionados	IBk
+at:11	acertos:81.95	micro:0.73	macro:0.58	8450 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	8450 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	8450 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	8450 selecionados	IBk
+at:11	acertos:56.01	micro:0.5	macro:0.39	8450 selecionados	NaiveBayes
+at:11	acertos:56.19	micro:0.5	macro:0.39	8450 selecionados	NaiveBayesSimple
+at:11	acertos:77.32	micro:0.67	macro:0.51	8450 selecionados	J48
+at:11	acertos:82.71	micro:0.74	macro:0.6	8450 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.98	micro:0.45	macro:0.34	8550 selecionados	SMO
+at:11	acertos:79.4	micro:0.7	macro:0.55	8550 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	8550 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	8550 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	8550 selecionados	IBk
+at:11	acertos:81.88	micro:0.73	macro:0.58	8550 selecionados	IBk
+at:11	acertos:81.95	micro:0.73	macro:0.58	8550 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	8550 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	8550 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	8550 selecionados	IBk
+at:11	acertos:56.01	micro:0.5	macro:0.39	8550 selecionados	NaiveBayes
+at:11	acertos:56.19	micro:0.5	macro:0.39	8550 selecionados	NaiveBayesSimple
+at:11	acertos:77.36	micro:0.67	macro:0.51	8550 selecionados	J48
+at:11	acertos:82.71	micro:0.74	macro:0.6	8550 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:65.02	micro:0.45	macro:0.34	8650 selecionados	SMO
+at:11	acertos:79.4	micro:0.7	macro:0.55	8650 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	8650 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	8650 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	8650 selecionados	IBk
+at:11	acertos:81.84	micro:0.73	macro:0.58	8650 selecionados	IBk
+at:11	acertos:81.95	micro:0.73	macro:0.58	8650 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	8650 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	8650 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	8650 selecionados	IBk
+at:11	acertos:56.12	micro:0.5	macro:0.39	8650 selecionados	NaiveBayes
+at:11	acertos:56.19	micro:0.5	macro:0.39	8650 selecionados	NaiveBayesSimple
+at:11	acertos:77.32	micro:0.67	macro:0.51	8650 selecionados	J48
+at:11	acertos:82.71	micro:0.74	macro:0.6	8650 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:64.94	micro:0.45	macro:0.34	8750 selecionados	SMO
+at:11	acertos:79.4	micro:0.7	macro:0.55	8750 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	8750 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	8750 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	8750 selecionados	IBk
+at:11	acertos:81.84	micro:0.73	macro:0.58	8750 selecionados	IBk
+at:11	acertos:81.95	micro:0.73	macro:0.58	8750 selecionados	IBk
+at:11	acertos:82.17	micro:0.74	macro:0.59	8750 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	8750 selecionados	IBk
+at:11	acertos:81.74	micro:0.73	macro:0.58	8750 selecionados	IBk
+at:11	acertos:55.94	micro:0.5	macro:0.39	8750 selecionados	NaiveBayes
+at:11	acertos:56.15	micro:0.5	macro:0.39	8750 selecionados	NaiveBayesSimple
+at:11	acertos:77.11	micro:0.67	macro:0.51	8750 selecionados	J48
+at:11	acertos:82.71	micro:0.74	macro:0.6	8750 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:65.09	micro:0.45	macro:0.34	8850 selecionados	SMO
+at:11	acertos:79.4	micro:0.7	macro:0.55	8850 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	8850 selecionados	IBk
+at:11	acertos:80.84	micro:0.71	macro:0.57	8850 selecionados	IBk
+at:11	acertos:81.77	micro:0.73	macro:0.59	8850 selecionados	IBk
+at:11	acertos:81.84	micro:0.73	macro:0.58	8850 selecionados	IBk
+at:11	acertos:81.99	micro:0.73	macro:0.58	8850 selecionados	IBk
+at:11	acertos:82.2	micro:0.74	macro:0.59	8850 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	8850 selecionados	IBk
+at:11	acertos:81.66	micro:0.73	macro:0.58	8850 selecionados	IBk
+at:11	acertos:56.01	micro:0.5	macro:0.39	8850 selecionados	NaiveBayes
+at:11	acertos:56.19	micro:0.5	macro:0.39	8850 selecionados	NaiveBayesSimple
+at:11	acertos:77.18	micro:0.67	macro:0.51	8850 selecionados	J48
+at:11	acertos:82.74	micro:0.74	macro:0.6	8850 selecionados	MultilayerPerceptron
+
+
+
+at:11	acertos:65.02	micro:0.45	macro:0.34	8950 selecionados	SMO
+at:11	acertos:79.4	micro:0.7	macro:0.55	8950 selecionados	IBk
+at:11	acertos:79.91	micro:0.7	macro:0.55	8950 selecionados	IBk
+at:11	acertos:80.88	micro:0.72	macro:0.57	8950 selecionados	IBk
+at:11	acertos:81.81	micro:0.73	macro:0.59	8950 selecionados	IBk
+at:11	acertos:81.88	micro:0.73	macro:0.58	8950 selecionados	IBk
+at:11	acertos:82.02	micro:0.73	macro:0.58	8950 selecionados	IBk
+at:11	acertos:82.2	micro:0.74	macro:0.59	8950 selecionados	IBk
+at:11	acertos:82.13	micro:0.73	macro:0.58	8950 selecionados	IBk
+at:11	acertos:81.66	micro:0.73	macro:0.58	8950 selecionados	IBk
+at:11	acertos:56.15	micro:0.5	macro:0.39	8950 selecionados	NaiveBayes
+at:11	acertos:56.19	micro:0.5	macro:0.39	8950 selecionados	NaiveBayesSimple
+at:11	acertos:77.14	micro:0.67	macro:0.51	8950 selecionados	J48
+at:11	acertos:82.74	micro:0.74	macro:0.6	8950 selecionados	MultilayerPerceptron
