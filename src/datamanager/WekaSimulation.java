@@ -123,4 +123,9 @@ public class WekaSimulation {
         return "at:" + numAtributos + "\tacertos:" + pctAcerto + "\tmicro:" + microAverage + "\tmacro:" + macroAverage;
     }
 
+    public String toString(String separador) {
+        return numAtributos + separador + pctAcerto + separador + microAverage + separador + macroAverage;
+
+    }
+
 }
