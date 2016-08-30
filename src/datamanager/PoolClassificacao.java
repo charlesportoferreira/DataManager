@@ -9,6 +9,7 @@ package datamanager;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Callable;
+import util.FileManager;
 //import weka.attributeSelection.ASEvaluation;
 import weka.classifiers.Classifier;
 import weka.classifiers.bayes.NaiveBayes;
@@ -44,7 +45,7 @@ public class PoolClassificacao implements Callable<String> {
         WekaSimulation wekaSimulation = new WekaSimulation();
         wekaSimulation.classifica(classificador, fileName);
         resultadoClassificacao
-                .append(wekaSimulation.toString(", "))
+                .append(wekaSimulation.toString(", ").replaceFirst("[0-9]+,", n + ","))
                 .append(", ")
                 .append(classificador.getClass().getSimpleName())
                 .append(", ");
@@ -74,6 +75,7 @@ public class PoolClassificacao implements Callable<String> {
             classifica(nomeArquivo, classificador, numeroAtributos);
         }
         System.out.print("\r" + ++count + " de " + total);
+        new FileManager().deletaArquivoExistente(nomeArquivo);
         return "";
     }
 }
