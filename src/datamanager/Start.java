@@ -32,9 +32,9 @@ public class Start {
             max = Integer.parseInt(args[1]);
             passo = Integer.parseInt(args[2]);
         } else {
-            min = 100;
-            max = 600;
-            passo = 100;
+            min = 50000;
+            max = 50030;
+            passo = 10;
         }
 
         FileManager fm = new FileManager();

@@ -64,7 +64,7 @@ public class PoolClassificacao implements Callable<String> {
         classificadores.add(new IBk(17));
         classificadores.add(new IBk(19));
         classificadores.add(new NaiveBayes());
-        classificadores.add(new NaiveBayesSimple());
+//        classificadores.add(new NaiveBayesSimple());
         classificadores.add(new MultilayerPerceptron());
         classificadores.add(new J48());
     }

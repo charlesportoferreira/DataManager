@@ -25,17 +25,17 @@ import java.util.logging.Logger;
  * @author charles
  */
 public class BagOfWord {
-    
+
     private String temp;
     Set<String> nomeClasses;
     List<Double[]> data;
-    
+
     public BagOfWord() {
         this.temp = "";
         nomeClasses = new HashSet<>();
         data = new ArrayList<>();
     }
-    
+
     public List<Instancia> geraInstancias(String filePath, List<Termo> termos) throws FileNotFoundException, IOException {
         String linhaLida;
         List<Instancia> instancias = new ArrayList<>();
@@ -58,14 +58,14 @@ public class BagOfWord {
         }
         return instancias;
     }
-    
+
     public Instancia getInstancia(String linhaLida, int size) {
         String[] dados = linhaLida.split("/");
         nomeClasses.add(dados[1]);
         Instancia i = new Instancia(dados[2], dados[1], size);
         return i;
     }
-    
+
     private double[] getVetorAtributos(BufferedReader br, List<Termo> termos) throws FileNotFoundException, IOException {
         String linhaLida;
         Map<String, Integer> mapaPalavras = new HashMap<>();
@@ -83,7 +83,7 @@ public class BagOfWord {
         }
         return geraVetorAtributos(termos, mapaPalavras);
     }
-    
+
     public double[] geraVetorAtributos(List<Termo> termos, Map<String, Integer> mapaPalavras) {
         double[] vetorAtributos = new double[termos.size()];
         for (int i = 0; i < termos.size(); i++) {
@@ -95,13 +95,13 @@ public class BagOfWord {
         }
         return vetorAtributos;
     }
-    
+
     public void somaVetores(double[] vec1, double[] vec2) {
         for (int i = 0; i < vec1.length; i++) {
             vec1[i] = vec1[i] + vec2[i];
         }
     }
-    
+
     public void geraBagOfWord(List<Instancia> textos, List<Instancia> classes) {
         for (Instancia texto : textos) {
             Double[] dists = new Double[classes.size()];
@@ -113,11 +113,20 @@ public class BagOfWord {
             data.add(dists);
         }
     }
-    
-    private double getDistanciaCosseno(Instancia texto, Instancia classe) {
-        return 0.0;
+
+    public double getDistanciaCosseno(Instancia texto, Instancia classe) {
+        double dotProduct = 0.0;
+        double normA = 0.0;
+        double normB = 0.0;
+        for (int i = 0; i < texto.palavras.length; i++) {
+            dotProduct += texto.palavras[i] * classe.palavras[i];
+            normA += Math.pow(texto.palavras[i], 2);
+            normB += Math.pow(texto.palavras[i], 2);
+        }
+        return dotProduct / (Math.sqrt(normA) * Math.sqrt(normB));
+//        return 0.0;
     }
-    
+
     public double getDistanciaEuclidiana(Instancia texto, Instancia classe) {
         double somatoria = 0.0;
         for (int i = 0; i < texto.palavras.length; i++) {
@@ -125,18 +134,18 @@ public class BagOfWord {
         }
         return Math.sqrt(somatoria);
     }
-    
+
     public void generateBagOfWord(List<Instancia> instancias, int numClasses, String classes, String nomeArquivo) {
         StringBuilder sb = new StringBuilder();
         sb.append("@RELATION teste");
         sb.append("\n\n");
-        
+
         for (int i = 0; i < numClasses; i++) {
             sb.append("@ATTRIBUTE ").append("DC").append(i).append(" REAL").append("\n");
         }
-        
+
         sb.append(classes).append("\n");
-        
+
         sb.append("\n@data\n");
         int i = 0;
         for (Instancia instancia : instancias) {
@@ -150,7 +159,7 @@ public class BagOfWord {
             Logger.getLogger(BagOfWord.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
-    
+
     public void printData(String fileName, String texto) throws IOException {
         try (FileWriter fw = new FileWriter(fileName); BufferedWriter bw = new BufferedWriter(fw)) {
             bw.write(texto);
@@ -158,5 +167,5 @@ public class BagOfWord {
             fw.close();
         }
     }
-    
+
 }
