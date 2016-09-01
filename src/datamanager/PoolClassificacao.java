@@ -73,6 +73,7 @@ public class PoolClassificacao implements Callable<String> {
     public String call() throws Exception {
         for (Classifier classificador : classificadores) {
             classifica(nomeArquivo, classificador, numeroAtributos);
+//            System.out.println("Done:" + classificador.getClass().getSimpleName());
         }
         System.out.print("\r" + ++count + " de " + total);
         new FileManager().deletaArquivoExistente(nomeArquivo);

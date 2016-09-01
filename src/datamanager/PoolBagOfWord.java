@@ -83,7 +83,8 @@ public class PoolBagOfWord implements Callable<String> {
             double[] vet = new double[classes.size()];
             for (int i = 0; i < classes.size(); i++) {
 //                vet[i] = bow.getDistanciaEuclidiana(texto, classes.get(i));
-                 vet[i] = bow.getDistanciaCosseno(texto, classes.get(i));
+//                 vet[i] = bow.getDistanciaCosseno(texto, classes.get(i));
+                 vet[i] = bow.getDistanciaManhattan(texto, classes.get(i));
             }
             ins.palavras = vet;
             distancias.add(ins);

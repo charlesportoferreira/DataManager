@@ -32,9 +32,9 @@ public class Start {
             max = Integer.parseInt(args[1]);
             passo = Integer.parseInt(args[2]);
         } else {
-            min = 50000;
-            max = 50030;
-            passo = 10;
+            min = 5962;
+            max = 5963;
+            passo = 100;
         }
 
         FileManager fm = new FileManager();
@@ -144,7 +144,7 @@ public class Start {
             sb.append(pc.resultadoClassificacao).append("\n");
         }
         try {
-            fm.saveFile("resultados.txt", sb.toString());
+            fm.saveFile("resultadosGenesDM.txt", sb.toString());
         } catch (IOException ex) {
             Logger.getLogger(PoolClassificacao.class.getName()).log(Level.SEVERE, null, ex);
         }

@@ -114,6 +114,14 @@ public class BagOfWord {
         }
     }
 
+    public double getDistanciaManhattan(Instancia texto, Instancia classe) {
+        double somatorio = 0;
+        for (int i = 0; i < texto.palavras.length; i++) {
+            somatorio += Math.abs(texto.palavras[i] - classe.palavras[i]);
+        }
+        return somatorio;
+    }
+
     public double getDistanciaCosseno(Instancia texto, Instancia classe) {
         double dotProduct = 0.0;
         double normA = 0.0;
