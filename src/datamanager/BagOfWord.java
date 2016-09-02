@@ -114,6 +114,21 @@ public class BagOfWord {
         }
     }
 
+    public double getDistanciaJaccart(Instancia texto, Instancia classe) {
+        double numInterseccaoPalavras = 0;
+        double numUniaoPalavras = 0;
+        for (int i = 0; i < texto.palavras.length; i++) {
+            if ((texto.palavras[i] == 0 && classe.palavras[i] > 0) | (texto.palavras[i] > 0 && classe.palavras[i] == 0)) {
+                numInterseccaoPalavras++;
+            }
+            if ((texto.palavras[i] == 0 && classe.palavras[i] == 0)) {
+                continue;
+            }
+            numUniaoPalavras++;
+        }
+        return numInterseccaoPalavras / numUniaoPalavras;
+    }
+
     public double getDistanciaManhattan(Instancia texto, Instancia classe) {
         double somatorio = 0;
         for (int i = 0; i < texto.palavras.length; i++) {

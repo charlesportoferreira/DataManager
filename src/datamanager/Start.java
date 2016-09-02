@@ -32,8 +32,8 @@ public class Start {
             max = Integer.parseInt(args[1]);
             passo = Integer.parseInt(args[2]);
         } else {
-            min = 5962;
-            max = 5963;
+            min = 50029;
+            max = 50030;
             passo = 100;
         }
 
